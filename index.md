@@ -33,4 +33,6 @@ Syntax highlighted code block
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 
-![The Philosopher's Garden at Rockefeller University](/images/philosophersGarden)
+![Philosophers Garden](/images/philosophersGarden.jpg)
+
+The Philosopher's Garden at Rockefeller University
