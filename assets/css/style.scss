@@ -2,4 +2,13 @@
 ---
 
 @import "{{ site.theme }}";
-<li><a href="{{ #about-me }}">{{ About Me }}</a></li>
+#markdown-toc::before {
+  content: "Contents";
+  margin-left: -$spacing-unit;
+  line-height: 200%;
+  font-weight: bold;
+  @include relative-font-size(1.25);
+  @include media-query($on-laptop) {
+    @include relative-font-size(1.125);
+  }
+}
