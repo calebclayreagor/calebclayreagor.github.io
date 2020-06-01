@@ -1,5 +1,10 @@
 theme: jekyll-theme-minimal
 title: Caleb Clay Reagor
-description: Tri-Institutional Training Program in Computational Biology and Medicine, PhD Student
+description: PhD Student [tri-i cbm](https://compbio.triiprograms.org)
 logo: /images/CalebReagor.jpg
 heading_anchors: true
+
+# navigation bar
+nav:
+- page: About Me
+  permalink: #about-me
