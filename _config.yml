@@ -3,8 +3,4 @@ title: Caleb Clay Reagor
 description: <a href="https://compbio.triiprograms.org">tri-i cbm</a> phd student
 logo: /images/CalebReagor.jpg
 heading_anchors: true
-
-# navigation bar
-nav:
-- page: About Me
-  permalink: #about-me
+toc: true
