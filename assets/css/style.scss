@@ -2,6 +2,4 @@
 ---
 
 @import "{{ site.theme }}";
-"{{% for n in site.nav %}
-   "<li><a href="{{ n.permalink }}">{{ n.page }}</a></li>"
-"{% endfor %}}"
+<li><a href="{{ #about-me }}">{{ About Me }}</a></li>
