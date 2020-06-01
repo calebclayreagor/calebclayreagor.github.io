@@ -1,7 +1,4 @@
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
 title: Caleb Clay Reagor
 description: <a href="https://compbio.triiprograms.org">tri-i cbm</a> phd student
 logo: /images/CalebReagor.jpg
-
-navbar-links:
-  About Me: #about-me
