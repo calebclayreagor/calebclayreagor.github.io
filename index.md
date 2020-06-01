@@ -1,3 +1,7 @@
+---
+sidebar: toc
+---
+
 ## About Me
 
 I am a graduate student in the Tri-Institutional Computational Biology and Medicine Program of Weill Cornell Medicine, Memorial Sloan Kettering Cancer Center, Rockefeller University and Cornell University-Ithaca. 
