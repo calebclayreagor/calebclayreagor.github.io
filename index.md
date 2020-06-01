@@ -1,10 +1,8 @@
 ## About Me
 
-```markdown
 I am a graduate student in the Tri-Institutional Computational Biology and Medicine Program of Weill Cornell Medicine, Memorial Sloan Kettering Cancer Center, Rockefeller University and Cornell University-Ithaca. 
 
 My primary area of interest is computational systems biology, with much of my previous work focusing on the analysis of complex behaviors in large-scale models of biochemical systems. My current research interests are uncovering the underlying mechanisms of emergent properties in living systems, as well as understanding how emergent properties contribute to the evolution of living systems.
-```
 
 ## Welcome to GitHub Pages
 
