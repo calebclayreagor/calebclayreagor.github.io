@@ -1,8 +1,12 @@
 ## About Me
 
-I am a graduate student in the Tri-Institutional Computational Biology and Medicine Program of Weill Cornell Medicine, Memorial Sloan Kettering Cancer Center, Rockefeller University and Cornell University-Ithaca. 
+I'm a graduate student in the lab of [A. James Hudspeth](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/1186-a-james-hudspeth/) at the Rockefeller University. 
 
 My primary area of interest is computational systems biology, with much of my previous work focusing on the analysis of complex behaviors in large-scale models of biochemical systems. My current research interests are uncovering the underlying mechanisms of emergent properties in living systems, as well as understanding how emergent properties contribute to the evolution of living systems.
+
+## Publications
+
+Check out my publications on [Google Scholar](https://scholar.google.com/citations?user=OrpTjvIAAAAJ&hl=en)
 
 
 
