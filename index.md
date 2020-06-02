@@ -45,7 +45,7 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
   on Molecular Targets and Cancer Therapeutics, 2017
  ```
  
- ### Awards
+ ## Awards
  
  ```
  - Major Field Achievement Award, Lipscomb University, 
