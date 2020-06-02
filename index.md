@@ -32,7 +32,7 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
   University Student Scholars Symposium, 2019
   
 - "Last Component Analysis: Uncovering the causes of 
-  complex behaviors in large-scale biochemical systems,"
+  complex behaviors in large-scale biochemical systems"
   Alpha Chi National Honors Society Convention, 2019
   
 - "Modeling information transmission in G protein-
