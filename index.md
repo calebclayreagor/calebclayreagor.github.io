@@ -48,7 +48,7 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
  ```
  
  
- ### Awards
+ ### Awards ###
  
  
  ```
@@ -60,7 +60,7 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
    Alpha Chi Honors Society, 2018
  ```
  
- ### Socieites
+ ### Socieites ###
  
  ```
  - New York Academy of Sciences, 2019
