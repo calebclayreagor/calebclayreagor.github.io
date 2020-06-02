@@ -15,8 +15,7 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
 ### Education
 
 ```
-- BS in molecular biology & applied math, Lipscomb 
-  University, 2019, Summa Cum Laude
+- BS in molecular biology & applied math, Lipscomb University, 2019, Summa Cum Laude
 ```
 
 ### Research fellowships
@@ -29,41 +28,28 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
 ### Presentations
 
 ```
-- "Last Component Analysis of a model of dorsal-ventral 
-  patterning in the Danio rerio lower jaw," Lipscomb 
-  University Student Scholars Symposium, 2019
+- "Last Component Analysis of a model of dorsal-ventral patterning in the Danio rerio lower jaw," Lipscomb University Student Scholars Symposium, 2019
   
-- "Last Component Analysis: Uncovering the causes of 
-  complex behaviors in large-scale biochemical systems"
-  Alpha Chi National Honors Society Convention, 2019
+- "Last Component Analysis: Uncovering the causes of complex behaviors in large-scale biochemical systems" Alpha Chi National Honors Society Convention, 2019
   
-- "Modeling information transmission in G protein-
-  coupled receptor signaling," Duquesne University 
-  Summer Undergraduate Research Symposium, 2018
+- "Modeling information transmission in G protein-coupled receptor signaling," Duquesne University Summer Undergraduate Research Symposium, 2018
   
-- "Utilizing methylation and expression signatures to 
-  construct predictive models and personalized cancer 
-  treatments," AACR-NCI-EORTC International Conference 
-  on Molecular Targets and Cancer Therapeutics, 2017
+- "Utilizing methylation and expression signatures to construct predictive models and personalized cancer treatments," AACR-NCI-EORTC International Conference on Molecular Targets and Cancer Therapeutics, 2017
 ```
  
 ### Awards
  
 ```
- - Major Field Achievement Award, Lipscomb University, 
-   2019
- - Pryor Prize in Mathematics, Alpha Chi National 
-   Honors Society, 2019
- - Revelle Prize in Molecular and Cellular Biology, 
-   Alpha Chi National Honors Society, 2018
+ - Major Field Achievement Award, Lipscomb University, 2019
+ - Pryor Prize in Mathematics, Alpha Chi National Honors Society, 2019
+ - Revelle Prize in Molecular and Cellular Biology, Alpha Chi National Honors Society, 2018
 ```
  
 ### Memberships
  
 ```
  - New York Academy of Sciences, 2019
- - Alpha Chi National Honors Society, Tennesse Kappa 
-   Chapter President, 2018
+ - Alpha Chi National Honors Society, Tennesse Kappa Chapter President, 2018
  - Tri-Beta Biological Honors Society, 2017
  - American Association for Cancer Research, 2017
 ```
