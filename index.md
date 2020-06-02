@@ -48,8 +48,10 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
  ### Awards
  
  ```
- - Major Field Achievement Award, Lipscomb University, 2019
- - Pryor Prize in Mathematics, Alpha Chi Honors Society, 2019
+ - Major Field Achievement Award, Lipscomb University, 
+   2019
+ - Pryor Prize in Mathematics, Alpha Chi Honors 
+   Society, 2019
  - Revelle Prize in Molecular and Cellular Biology, Alpha
    Chi Honors Society, 2018
  ```
