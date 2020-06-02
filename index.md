@@ -62,8 +62,8 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
  
  ```
  - New York Academy of Sciences, 2019
- - Alpha Chi Honors Society, Tennesse Kappa President,
-   2018
+ - Alpha Chi Honors Society, Tennesse Kappa Chapter
+   President, 2018
  - Tri-Beta Biological Honors Society, 2017
  - American Association for Cancer Research, 2017
  ```
