@@ -10,11 +10,10 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
 
 ## CV
 
-```
-# Fellowships
+### Fellowships
 
-NSF REU
-```
+-[NSF REU](https://www.tecbioreu.pitt.edu), University of Pittsburgh, 2018
+-Langford-Yates Fellowship, Lipscomb University, 2017
 
 ![Philosophers Garden](/images/philosophersGarden.jpg)
 
