@@ -13,7 +13,7 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
 ### Fellowships
 
 ```
-- [NSF REU](https://www.tecbioreu.pitt.edu), University of Pittsburgh, 2018
+- NSF REU, University of Pittsburgh, 2018
 - Langford-Yates Fellowship, Lipscomb University, 2017
 ```
 
