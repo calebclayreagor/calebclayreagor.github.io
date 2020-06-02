@@ -34,16 +34,6 @@ NSF REU program, University of Pittsburgh, 2018
 Langford-Yates Fellowship, Lipscomb University, 2017
 ```
  
-### Awards
- 
-```
-Major Field Achievement Award, Lipscomb University, 2019
- 
-Pryor Prize in Mathematics, Alpha Chi National Honors Society, 2019
- 
-Revelle Prize in Molecular and Cellular Biology, Alpha Chi National Honors Society, 2018
-```
- 
 ### Memberships
  
 ```
@@ -68,6 +58,16 @@ American Association for Cancer Research, 2017
 "Modeling information transmission in G protein-coupled receptor signaling," Duquesne University Summer Undergraduate Research Symposium, 2018
   
 "Utilizing methylation and expression signatures to construct predictive models and personalized cancer treatments," AACR-NCI-EORTC International Conference on Molecular Targets and Cancer Therapeutics, 2017
+```
+
+### Awards
+ 
+```
+Major Field Achievement Award, Lipscomb University, 2019
+ 
+Pryor Prize in Mathematics, Alpha Chi National Honors Society, 2019
+ 
+Revelle Prize in Molecular and Cellular Biology, Alpha Chi National Honors Society, 2018
 ```
 
 ![Philosophers Garden](/images/philosophersGarden.jpg)
