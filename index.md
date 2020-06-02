@@ -45,30 +45,28 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
   construct predictive models and personalized cancer 
   treatments," AACR-NCI-EORTC International Conference 
   on Molecular Targets and Cancer Therapeutics, 2017
- ```
+```
  
+### Awards
  
- ### Awards ###
- 
- 
- ```
+```
  - Major Field Achievement Award, Lipscomb University, 
    2019
  - Pryor Prize in Mathematics, Alpha Chi Honors 
    Society, 2019
  - Revelle Prize in Molecular and Cellular Biology, 
    Alpha Chi Honors Society, 2018
- ```
+```
  
- ### Socieites ###
+### Socieites
  
- ```
+```
  - New York Academy of Sciences, 2019
  - Alpha Chi Honors Society, Tennesse Kappa Chapter
    President, 2018
  - Tri-Beta Biological Honors Society, 2017
  - American Association for Cancer Research, 2017
- ```
+```
 
 ![Philosophers Garden](/images/philosophersGarden.jpg)
 
