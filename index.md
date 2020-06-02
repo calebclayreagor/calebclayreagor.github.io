@@ -18,6 +18,14 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
 BS in molecular biology & applied math, Lipscomb University, 2019, Summa Cum Laude
 ```
 
+### Graduate courses
+
+```
+Development of CNS Circuits with Mary Beth Hatten, Rockefeller University, 2020
+
+Neuronal Networks with John Rinzel, NYU Courant, 2019
+```
+
 ### Research fellowships
 
 ```
@@ -51,6 +59,8 @@ Revelle Prize in Molecular and Cellular Biology, Alpha Chi National Honors Socie
 ### Memberships
  
 ```
+CBM student council, 2020
+
 New York Academy of Sciences, 2019
  
 Alpha Chi National Honors Society, Tennesse Kappa Chapter President, 2018
