@@ -35,9 +35,9 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
   complex behaviors in large-scale biochemical systems,"
   Alpha Chi National Honors Society Convention, 2019
   
-- "Modeling information transmission in G protein-coupled
-  receptor signaling," Duquesne University Summer 
-  Undergraduate Research Symposium, 2018
+- "Modeling information transmission in G protein-
+  coupled receptor signaling," Duquesne University 
+  Summer Undergraduate Research Symposium, 2018
   
 - "Utilizing methylation and expression signatures to 
   construct predictive models and personalized cancer 
@@ -52,8 +52,8 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
    2019
  - Pryor Prize in Mathematics, Alpha Chi Honors 
    Society, 2019
- - Revelle Prize in Molecular and Cellular Biology, Alpha
-   Chi Honors Society, 2018
+ - Revelle Prize in Molecular and Cellular Biology, 
+   Alpha Chi Honors Society, 2018
  ```
 
 ![Philosophers Garden](/images/philosophersGarden.jpg)
