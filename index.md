@@ -58,7 +58,7 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
    Alpha Chi National Honors Society, 2018
 ```
  
-### Society memberships
+### Memberships
  
 ```
  - New York Academy of Sciences, 2019
