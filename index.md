@@ -45,7 +45,9 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
   on Molecular Targets and Cancer Therapeutics, 2017
  ```
  
- ## Awards
+ 
+ ### Awards
+ 
  
  ```
  - Major Field Achievement Award, Lipscomb University, 
@@ -54,6 +56,16 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
    Society, 2019
  - Revelle Prize in Molecular and Cellular Biology, 
    Alpha Chi Honors Society, 2018
+ ```
+ 
+ ### Socieites
+ 
+ ```
+ - New York Academy of Sciences, 2019
+ - Alpha Chi Honors Society, Tennesse Kappa President,
+   2018
+ - Tri-Beta Biological Honors Society, 2017
+ - American Association for Cancer Research, 2017
  ```
 
 ![Philosophers Garden](/images/philosophersGarden.jpg)
