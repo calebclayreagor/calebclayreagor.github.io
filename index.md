@@ -1,6 +1,6 @@
 ## About me
 
-I'm a graduate student in the lab of [A. James Hudspeth](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/1186-a-james-hudspeth/) at the Rockefeller University. I study the development, regeneration and evolution of highly-specialized sensory cells in the lateral line and inner ear using single cell genomics and dynamical systems theory. 
+I'm a graduate student in the lab of [A. James Hudspeth](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/1186-a-james-hudspeth/) at Rockefeller University. I study the development, regeneration and evolution of highly-specialized sensory cells in the lateral line and inner ear using single cell genomics and dynamical systems theory. 
 
 > "Evolution is the control of development by ecology" -Leigh Van Valen
 
@@ -22,7 +22,7 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
 ### Research fellowships
 
 ```
-- NSF REU, University of Pittsburgh, 2018
+- NSF REU program, University of Pittsburgh, 2018
 - Langford-Yates Fellowship, Lipscomb University, 2017
 ```
 
@@ -52,18 +52,18 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
 ```
  - Major Field Achievement Award, Lipscomb University, 
    2019
- - Pryor Prize in Mathematics, Alpha Chi Honors 
-   Society, 2019
+ - Pryor Prize in Mathematics, Alpha Chi National 
+   Honors Society, 2019
  - Revelle Prize in Molecular and Cellular Biology, 
-   Alpha Chi Honors Society, 2018
+   Alpha Chi National Honors Society, 2018
 ```
  
-### Socieites
+### Socieity memberships
  
 ```
  - New York Academy of Sciences, 2019
- - Alpha Chi Honors Society, Tennesse Kappa Chapter
-   President, 2018
+ - Alpha Chi National Honors Society, Tennesse Kappa 
+   Chapter President, 2018
  - Tri-Beta Biological Honors Society, 2017
  - American Association for Cancer Research, 2017
 ```
