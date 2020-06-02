@@ -8,6 +8,8 @@ I'm a graduate student in the lab of [A. James Hudspeth](https://www.rockefeller
 
 Check out my publications on [Google Scholar](https://scholar.google.com/citations?user=OrpTjvIAAAAJ&hl=en)
 
+![Hair Cells](images/hairCellsBW.jpg)
+
 ## Curriculum vitae
 
 ### Education
