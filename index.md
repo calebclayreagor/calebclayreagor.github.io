@@ -15,15 +15,27 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
 ### Education
 
 ```
-BS in molecular biology & applied math, Lipscomb University, 2019, Summa Cum Laude
+BS in molecular biology & applied math (chemistry minor), Lipscomb University, 2019, Summa Cum Laude
 ```
 
-### Graduate courses
+### Presentations
 
 ```
-Development of CNS Circuits with Mary Beth Hatten, Rockefeller University, 2020
+"Last Component Analysis of a model of dorsal-ventral patterning in the Danio rerio lower jaw," Lipscomb University Student Scholars Symposium, 2019
+  
+"Last Component Analysis: Uncovering the causes of complex behaviors in large-scale biochemical systems" Alpha Chi National Honors Society Convention, 2019
+  
+"Modeling information transmission in G protein-coupled receptor signaling," Duquesne University Summer Undergraduate Research Symposium, 2018
+  
+"Utilizing methylation and expression signatures to construct predictive models and personalized cancer treatments," AACR-NCI-EORTC International Conference on Molecular Targets and Cancer Therapeutics, 2017
+```
 
-Neuronal Networks with John Rinzel, NYU Courant, 2019
+### Science Outreach
+
+```
+Mentor, John F. Kennedy High School Research Mentorship Program, 2020
+
+Judge, Weill Cornell Medicine High School Science Immersion Program, 2019
 ```
 
 ### Research fellowships
@@ -48,18 +60,6 @@ Tri-Beta Biological Honors Society, 2017
 American Association for Cancer Research, 2017
 ```
 
-### Presentations
-
-```
-"Last Component Analysis of a model of dorsal-ventral patterning in the Danio rerio lower jaw," Lipscomb University Student Scholars Symposium, 2019
-  
-"Last Component Analysis: Uncovering the causes of complex behaviors in large-scale biochemical systems" Alpha Chi National Honors Society Convention, 2019
-  
-"Modeling information transmission in G protein-coupled receptor signaling," Duquesne University Summer Undergraduate Research Symposium, 2018
-  
-"Utilizing methylation and expression signatures to construct predictive models and personalized cancer treatments," AACR-NCI-EORTC International Conference on Molecular Targets and Cancer Therapeutics, 2017
-```
-
 ### Awards
  
 ```
@@ -68,6 +68,16 @@ Major Field Achievement Award, Lipscomb University, 2019
 Pryor Prize in Mathematics, Alpha Chi National Honors Society, 2019
  
 Revelle Prize in Molecular and Cellular Biology, Alpha Chi National Honors Society, 2018
+```
+
+### Graduate courses
+
+```
+Development of CNS Circuits with Mary Beth Hatten, Rockefeller University, 2020
+
+Genetics and Evolution with Fred Cross, Rockefeller University, 2020
+
+Neuronal Networks with John Rinzel, NYU Courant, 2019
 ```
 
 ![Philosophers Garden](/images/philosophersGarden.jpg)
