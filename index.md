@@ -33,7 +33,7 @@ BS in molecular biology & applied math (chemistry minor), Lipscomb University, 2
 ### Science Outreach
 
 ```
-Mentor, John F. Kennedy High School Research Mentorship Program, 2020
+Mentor, John F. Kennedy High School Student Research Mentorship Program, 2020
 
 Judge, Weill Cornell Medicine High School Science Immersion Program, 2019
 ```
