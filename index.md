@@ -12,6 +12,18 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
 
 ## Curriculum vitae
 
+### Research fellowships
+
+```
+Graduate Research Fellowship, NSF GRFP, 2021
+
+Graduate Fellowship, Rockefeller University, 2020 
+
+NSF REU program, University of Pittsburgh, 2018
+
+Langford-Yates Fellowship, Lipscomb University, 2017
+```
+
 ### Education
 
 ```
@@ -38,14 +50,6 @@ Mentor, John F. Kennedy High School Student Research Mentorship Program, 2020
 Judge, Weill Cornell Medicine High School Science Immersion Program, 2019
 ```
 
-### Research fellowships
-
-```
-NSF REU program, University of Pittsburgh, 2018
-
-Langford-Yates Fellowship, Lipscomb University, 2017
-```
- 
 ### Memberships
  
 ```
