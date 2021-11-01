@@ -34,14 +34,6 @@ New York Academy of Sciences Member, 2019
 Tri-Beta Biological Honors Society, 2017
 ```
 
-### Awards
- 
-```
-Major Field Achievement Award, Lipscomb University, 2019
-Pryor Prize in Mathematics, AX Honors, 2019
-Revelle Prize in Molecular Biology, AX Honors, 2018
-```
-
 ### Selected coursework
 
 ```
@@ -49,6 +41,14 @@ Deep Learning, Cornell Tech, 2021
 Statistical Mechanics, NYU, 2020
 Development of CNS Circuits, RU, 2020
 Neuronal Networks, NYU Courant, 2019
+```
+
+### Awards
+ 
+```
+Major Field Achievement Award, Lipscomb University, 2019
+Pryor Prize in Mathematics, AX Honors, 2019
+Revelle Prize in Molecular Biology, AX Honors, 2018
 ```
 
 ![Philosophers Garden](/images/philosophersGarden.jpg)
