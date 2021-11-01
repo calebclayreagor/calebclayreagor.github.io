@@ -2,7 +2,7 @@
 
 I'm a graduate fellow in the laboratory of [A. James Hudspeth](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/1186-a-james-hudspeth/) at Rockefeller University (RU) and a member of the Tri-Institutional PhD Program in Computational Biology and Medicine (CBM). I study the development and regeneration of highly-specialized sensory cells in the inner ear using single-cell genomics, deep learning, and dynamical systems theory. 
 
-> 'Day science' employs reasoning that meshes like gears, and achieves results with the force of certainty. 'Night science' is a sort of workshop of the possible, where are elaborated what will become the building materials of science. Where hypotheses take the form of vague presentiments, of hazy sensations. -François Jacob
+> 'Day science' employs reasoning that meshes like gears, and achieves results with the force of certainty. 'Night science' is a sort of workshop of the possible, where hypotheses take the form of vague presentiments, of hazy sensations. -François Jacob
 
 ## Publications
 
