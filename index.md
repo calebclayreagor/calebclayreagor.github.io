@@ -42,7 +42,7 @@ New York Academy of Sciences, 2019
 Tri-Beta Biological Honors Society, 2017
 ```
 
-### Selected graduate coursework
+### Selected coursework
 
 ```
 Deep Learning, Cornell Tech, 2021
