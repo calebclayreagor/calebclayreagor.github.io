@@ -12,7 +12,7 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
 
 ## Curriculum vitae
 
-### Research fellowships
+### Fellowships
 
 ```
 Graduate Research Fellowship, NSF GRFP, 2021
