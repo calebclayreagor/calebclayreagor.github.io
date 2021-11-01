@@ -1,6 +1,6 @@
 ## About me
 
-I'm a Graduate Fellow in the laboratory of [A. James Hudspeth](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/1186-a-james-hudspeth/) at Rockefeller University (RU) and a member of the Tri-Institutional PhD Program in Computational Biology and Medicine (CBM). I study the development and regeneration of highly-specialized sensory cells in the inner ear using single-cell genomics, deep learning, and dynamical systems theory. 
+I'm a Graduate Fellow in the laboratory of [A. J. Hudspeth](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/1186-a-james-hudspeth/) at Rockefeller University (RU) and a member of the Tri-Institutional PhD Program in Computational Biology and Medicine (CBM). I study the development and regeneration of highly-specialized sensory cells in the inner ear using single-cell genomics, deep learning, and dynamical systems theory. 
 
 > 'Day science' employs reasoning that meshes like gears and achieves results with the force of certainty. 'Night science' is a sort of workshop of the possible, where hypotheses take the form of vague presentiments and hazy sensations. -François Jacob
 
