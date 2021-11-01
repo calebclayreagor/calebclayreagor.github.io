@@ -16,7 +16,7 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
 
 ```
 NSF Graduate Research Fellowship Program, 2021
-Graduate Fellow, Rockefeller University, 2020 
+Graduate Fellowship, Rockefeller University, 2020 
 NSF REU Program, University of Pittsburgh, 2018
 ```
 
