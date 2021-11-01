@@ -37,7 +37,7 @@ Revelle Prize in Molecular Biology, AX Honors, 2018
 ### Organizations
  
 ```
-CBM & RU student councils, 2020/21
+CBM & RU Student Councils, 2020/21
 New York Academy of Sciences, 2019
 Tri-Beta Biological Honors Society, 2017
 ```
