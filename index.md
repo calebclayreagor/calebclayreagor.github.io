@@ -29,7 +29,7 @@ BS in Molecular Biology & Applied Math (Chemistry minor), Lipscomb University, 2
 ### Organizations
  
 ```
-CBM & RU Student Councils, 2020/21
+CBM & RU Student Representative Councils, 2020
 New York Academy of Sciences, 2019
 Tri-Beta Biological Honors Society, 2017
 ```
