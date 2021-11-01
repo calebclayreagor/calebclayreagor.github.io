@@ -26,20 +26,20 @@ NSF REU program, University of Pittsburgh, 2018
 BS in molecular biology & applied math (chemistry minor), Lipscomb University, 2019, Summa Cum Laude
 ```
 
+### Awards
+ 
+```
+Major Field Achievement Award, Lipscomb, 2019
+Pryor Prize in Mathematics, AX Honors, 2019
+Revelle Prize in Molecular Biology, AX Honors, 2018
+```
+
 ### Organizations
  
 ```
 CBM & RU student councils, 2020/21
 New York Academy of Sciences, 2019
 Tri-Beta Biological Honors Society, 2017
-```
-
-### Awards
- 
-```
-Major Field Achievement Award, Lipscomb, 2019
-Pryor Prize in Mathematics, AX Honors Society, 2019
-Revelle Prize in Molecular Biology, AX Honors Society, 2018
 ```
 
 ### Selected graduate coursework
