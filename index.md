@@ -26,13 +26,6 @@ NSF REU program, University of Pittsburgh, 2018
 BS in molecular biology & applied math (chemistry minor), Lipscomb University, 2019, Summa Cum Laude
 ```
 
-### Science Outreach
-
-```
-Mentor, John F. Kennedy High School Student Research Mentorship Program, 2020
-Judge, Weill Cornell Medicine High School Science Immersion Program, 2019
-```
-
 ### Organizations
  
 ```
