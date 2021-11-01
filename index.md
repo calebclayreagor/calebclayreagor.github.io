@@ -47,7 +47,7 @@ Tri-Beta Biological Honors Society, 2017
 ```
 Deep Learning, Cornell Tech, 2021
 Statistical Mechanics, NYU, 2020
-CNS Development, Rockefeller, 2020
+CNS Development, RU, 2020
 Neuronal Networks, NYU Courant, 2019
 ```
 
