@@ -26,18 +26,6 @@ NSF REU program, University of Pittsburgh, 2018
 BS in molecular biology & applied math (chemistry minor), Lipscomb University, 2019, Summa Cum Laude
 ```
 
-### Presentations
-
-```
-"Last Component Analysis of a model of dorsal-ventral patterning in the Danio rerio lower jaw," Lipscomb University Student Scholars Symposium, 2019
-  
-"Last Component Analysis: Uncovering the causes of complex behaviors in large-scale biochemical systems" Alpha Chi National Honors Society Convention, 2019
-  
-"Modeling information transmission in G protein-coupled receptor signaling," Duquesne University Summer Undergraduate Research Symposium, 2018
-  
-"Utilizing methylation and expression signatures to construct predictive models and personalized cancer treatments," AACR-NCI-EORTC International Conference on Molecular Targets and Cancer Therapeutics, 2017
-```
-
 ### Science Outreach
 
 ```
