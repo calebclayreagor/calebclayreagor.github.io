@@ -47,8 +47,8 @@ Neuronal Networks, NYU Courant, 2019
  
 ```
 Major Field Achievement Award, Lipscomb Univ., 2019
-Pryor Prize in Mathematics, AX Honors, 2019
-Revelle Prize in Molecular Biology, AX Honors, 2018
+Pryor Prize in Mathematics, AX Honors Soc., 2019
+Revelle Prize in Molecular Biology, AX Honors Soc., 2018
 ```
 
 ![Philosophers Garden](/images/philosophersGarden.jpg)
