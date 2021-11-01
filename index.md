@@ -1,6 +1,6 @@
 ## About me
 
-I'm a graduate fellow in the lab of [A. James Hudspeth](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/1186-a-james-hudspeth/) at Rockefeller University. I study the development and regeneration of highly-specialized sensory cells in the inner ear using single-cell genomics, deep learning, and dynamical systems theory. 
+I'm a graduate fellow in the laboratory of [A. James Hudspeth](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/1186-a-james-hudspeth/) at Rockefeller University. I study the development and regeneration of highly-specialized sensory cells in the inner ear using single-cell genomics, deep learning, and dynamical systems theory. 
 
 > "Evolution is the control of development by ecology" -Leigh Van Valen
 
