@@ -29,7 +29,7 @@ BS in molecular biology & applied math (chemistry minor), Lipscomb University, 2
 ### Awards
  
 ```
-Major Field Achievement Award, Lipscomb, 2019
+Major Field Achievement Award, Lipscomb University, 2019
 Pryor Prize in Mathematics, AX Honors, 2019
 Revelle Prize in Molecular Biology, AX Honors, 2018
 ```
