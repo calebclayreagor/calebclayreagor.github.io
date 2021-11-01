@@ -33,14 +33,12 @@ Mentor, John F. Kennedy High School Student Research Mentorship Program, 2020
 Judge, Weill Cornell Medicine High School Science Immersion Program, 2019
 ```
 
-### Memberships
+### Organizations
  
 ```
-CBM student council, 2020
+CBM & RU student councils, 2020/21
 New York Academy of Sciences, 2019
-Alpha Chi National Honors Society, Tennesse Kappa Chapter President, 2018
 Tri-Beta Biological Honors Society, 2017
-American Association for Cancer Research, 2017
 ```
 
 ### Awards
