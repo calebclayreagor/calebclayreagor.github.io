@@ -23,7 +23,7 @@ NSF REU program, University of Pittsburgh, 2018
 ### Education
 
 ```
-BS in molecular biology & applied math (chemistry minor), Lipscomb University, 2019, Summa Cum Laude
+BS in Molecular Biology & Applied Math (Chemistry minor), Lipscomb University, 2019, Summa Cum Laude
 ```
 
 ### Awards
