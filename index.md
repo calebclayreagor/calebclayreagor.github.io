@@ -23,7 +23,7 @@ NSF REU Program, University of Pittsburgh, 2018
 ### Education
 
 ```
-BS in Molecular Biology & Applied Math (Chemistry minor), Lipscomb University, 2019, Summa Cum Laude
+BS in Molecular Biology & Applied Math, Lipscomb University, 2019
 ```
 
 ### Organizations
@@ -32,23 +32,6 @@ BS in Molecular Biology & Applied Math (Chemistry minor), Lipscomb University, 2
 CBM/RU Student Representative Councils, 2020
 New York Academy of Sciences Member, 2019
 Tri-Beta Biological Honors Society, 2017
-```
-
-### Selected coursework
-
-```
-Deep Learning, Cornell Tech, 2021
-Statistical Mechanics, NYU, 2020
-Development of CNS Circuits, RU, 2020
-Neuronal Networks, NYU Courant, 2019
-```
-
-### Awards
- 
-```
-Major Field Achievement Award, Lipscomb Univ., 2019
-Pryor Prize in Mathematics, AX Honors Society, 2019
-Revelle Prize in Molecular Biology, AX, 2018
 ```
 
 ![Philosophers Garden](/images/philosophersGarden.jpg)
