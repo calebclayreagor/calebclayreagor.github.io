@@ -10,8 +10,6 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
 
 ![Hair Cells](images/hairCellsBW.jpg)
 
-## Curriculum vitae
-
 ### Fellowships
 
 ```
