@@ -13,6 +13,7 @@ Check out my publications on [Google Scholar](https://scholar.google.com/citatio
 ### Fellowships
 
 ```
+RU/KI Nicholson Research Fellowship, 2022
 NSF Graduate Research Fellowship Program, 2021
 Graduate Fellowship, Rockefeller University, 2020 
 NSF REU Program, University of Pittsburgh, 2018
