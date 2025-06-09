@@ -32,9 +32,13 @@ layout: default
 
 > Reagor & Hudspeth, 2024, [*bioRxiv*](https://doi.org/10.1101/2024.10.15.618534)
 
+<br>
+
 - Based on concepts from Granger Causality, I designed DELAY to encode noisy gene-expression data as images for deep learning
 
 ![DELAY](images/DELAY.png)
+
+<br>
 
 - DELAY uses a supervised convolutional neural network to classify images as either interacting or non-interacting gene pairs
 
