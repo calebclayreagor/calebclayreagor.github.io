@@ -8,14 +8,12 @@ layout: default
 ## High-dimensional & multi-modal data analysis
 - In my Ph.D., I analyzed high-dimensional datasets of single cells' unique profiles from sparse `cell x gene` matrices with thousands of individual features and up to millions of unique observations:
 
-|          | Gene_1 | Gene_2 | ⋯   | Gene_m |
-|----------|--------|--------|-----|--------|
-| Cell_1   |   ⋯    |   ⋯    | ⋯   |   ⋯    |
-| Cell_2   |   ⋯    |   ⋯    | ⋯   |   ⋯    |
-| ⋯        |   ⋯    |   ⋯    | ⋯   |   ⋯    |
-| Cell_n   |   ⋯    |   ⋯    |  ⋯   |   ⋯    |
-
-<br>
+> |          | Gene_1 | Gene_2 | ⋯   | Gene_m |
+> |----------|--------|--------|-----|--------|
+> | Cell_1   |   ⋯    |   ⋯    | ⋯   |   ⋯    |
+> | Cell_2   |   ⋯    |   ⋯    | ⋯   |   ⋯    |
+> | ⋯        |   ⋯    |   ⋯    | ⋯   |   ⋯    |
+> | Cell_n   |   ⋯    |   ⋯    |  ⋯   |   ⋯    |
 
 - These datasets often comprise multiple `cell x feature` matrices of cells' distinct biological properties
 
