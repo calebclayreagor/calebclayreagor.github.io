@@ -45,6 +45,6 @@ layout: default
 
 - DELAY reconstructs large-scale networks from the bottom up by inferring causal interactions between gene pairs
 
-- DELAY learns to encode contextual information about higher-order interactions and network motifs
+> <img src="images/DELAY-fig3a.jpeg" alt="Network motifs" width="300">
 
-  
+> DELAY learns to encode contextual information about higher-order interactions and network motifs
