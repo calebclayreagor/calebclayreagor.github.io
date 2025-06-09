@@ -19,7 +19,7 @@ layout: default
 
 - To analyze these datasets, I used unsupervised machine-learning methods such as *t*-SNE and Louvain clustering:
 
-<img src="images/tsne-neuromast-annotated.svg" alt="t-SNE" width="400">
+> <img src="images/tsne-neuromast-annotated.svg" alt="t-SNE" width="400">
 
 > Reagor & Hudspeth, 2024, [*bioRxiv*](https://doi.org/10.1101/2024.10.15.618534)
 
@@ -27,10 +27,11 @@ layout: default
 
 - I developed DELAY, a deep-learning method to reconstruct causal networks from single-cell gene-expression datasets
 
-<figure>
-  <img src="images/slingshot-pseudotime.png" alt="Pseudotime" width="600">
-  <figcaption>These datasets can reveal cells' relative maturities during processes like tissue regeneration</figcaption>
-</figure>
+> <figure>
+>   <img src="images/slingshot-pseudotime.png" alt="Pseudotime" width="600">
+  
+>   <figcaption>These datasets can reveal cells' relative maturities during processes like tissue regeneration</figcaption>
+> </figure>
 
 - Based on concepts from Granger Causality, I designed DELAY to encode noisy gene-expression data as images for deep learning
 
