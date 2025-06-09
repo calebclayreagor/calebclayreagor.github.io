@@ -1,8 +1,4 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
-description: Hello world |
-<p>
-  <a href="index.html" class="btn">Home</a>
-  <a href="research-skills.html" class="btn">Research Skills</a>
-</p>
+description: <p>Personal Website & Research Summary</p><p><a href="index.html" class="btn">Home</a><a href="research-skills.html" class="btn">Research Skills</a></p>
