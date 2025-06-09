@@ -43,7 +43,7 @@ layout: default
 
 ## Analysis of large-scale networks
 
-- DELAY reconstructs large-scale networks from the bottom up by inferring causal interactions between gene pairs
+- DELAY reconstructs large-scale networks by inferring causal interactions between individual gene pairs
 
 > <img src="images/DELAY-fig3a.jpeg" alt="Network motifs" width="300">
 
