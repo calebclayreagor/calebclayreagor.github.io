@@ -6,7 +6,7 @@ layout: default
 
 # Research Skills
 ## High-dimensional & multi-modal data analysis
-- In my Ph.D., I analyzed high-dimensional datasets of single cells' unique profiles from sparse `cell x gene` matrices with thousands of individual features and up to millions of unique observations:
+- In my Ph.D., I analyzed high-dimensional datasets of single cells' unique profiles from sparse `cell x gene` matrices with thousands of individual features and up to tens of millions of unique observations:
 
 > |          | Gene_1 | Gene_2 | ⋯   | Gene_m |
 > |----------|--------|--------|-----|--------|
@@ -15,7 +15,7 @@ layout: default
 > | ⋯        |   ⋯    |   ⋯    | ⋯   |   ⋯    |
 > | Cell_n   |   ⋯    |   ⋯    |  ⋯   |   ⋯    |
 
-- These datasets comprise multiple `cell x feature` matrices of cells' distinct biological properties
+- These datasets comprised multiple `cell x feature` matrices of cells' distinct biological properties
 
 - To analyze these datasets, I used unsupervised machine-learning methods such as *t*-SNE and Louvain clustering:
 
@@ -25,17 +25,12 @@ layout: default
 
 ## Deep learning for causal time-series analysis
 
-- I developed DELAY, a deep-learning method for reconstructing causal networks from single-cell gene-expression datasets
+- I developed DELAY, a deep-learning method to reconstruct causal networks from single-cell gene-expression datasets
 
-<br>
-
-- These datasets can reveal cells' relative maturities during processes like tissue regeneration:
-
-<img src="images/slingshot-pseudotime.png" alt="Pseudotime" width="600">
-
-> Reagor & Hudspeth, 2024, [*bioRxiv*](https://doi.org/10.1101/2024.10.15.618534)
-
-<br>
+<figure>
+  <img src="images/slingshot-pseudotime.png" alt="Pseudotime" width="600">
+  <figcaption>These datasets can reveal cells' relative maturities during processes like tissue regeneration</figcaption>
+</figure>
 
 - Based on concepts from Granger Causality, I designed DELAY to encode noisy gene-expression data as images for deep learning
 
