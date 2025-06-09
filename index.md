@@ -23,9 +23,16 @@ I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph
 
 ## Deep learning for time-series analysis
 
-- For my Ph.D. work, I developed a parsimonious deep-learning algorithm for reconstructing causal networks from single-cell datasets
-- 
+- For my Ph.D., I developed a deep-learning algorithm named DELAY for reconstructing causal networks from single-cell data
+- These datasets contain information about cells' relative maturity during processes like human brain development:    
 
+<img src="images/mannens_fig4a.png" alt="Pseudotime example" width="150">
+
+> Mannens, ..., Reagor, et al., 2024, [Nature](https://doi.org/10.1038/s41586-024-07234-1)
+
+- I developed DELAY to encode noisy gene-expression data as an image, similar to an autoregression in Granger Causality
+
+![DELAY](DELAY.png)
 
 ## Publications
 
