@@ -29,14 +29,18 @@ layout: default
 
 > <img src="images/slingshot-pseudotime.png" alt="Pseudotime" width="600">
 
-> <figcaption>These datasets can reveal cells' relative maturities during processes like tissue regeneration</figcaption>
+> <figcaption>These datasets reveal cells' relative maturities during processes like tissue regeneration</figcaption>
+
+<br>
 
 - Based on concepts from Granger Causality, I designed DELAY to encode noisy gene-expression data as images for deep learning
 
 > ![DELAY](images/DELAY.png)
 
+> Reagor, Velez-Angel & Hudspeth, 2023, [*PNAS Nexus*](https://doi.org/10.1093/pnasnexus/pgad113)
+
+<br>
+
 - DELAY uses a supervised convolutional neural network to classify images as either interacting or non-interacting gene pairs
 
 > <img src="images/DELAY-fig1b.jpeg" alt="DELAY CNN" width="800">
-
-> Reagor, Velez-Angel & Hudspeth, 2023, [*PNAS Nexus*](https://doi.org/10.1093/pnasnexus/pgad113)
