@@ -15,7 +15,7 @@ layout: default
 > | ⋯        |   ⋯    |   ⋯    | ⋯   |   ⋯    |
 > | Cell_n   |   ⋯    |   ⋯    |  ⋯   |   ⋯    |
 
-- These datasets comprised multiple `cell x feature` matrices of cells' distinct biological properties
+- These datasets comprised multi-modal `cell x feature` matrices of cells' distinct biological properties
 
 - To analyze these datasets, I used unsupervised machine-learning methods such as *t*-SNE and Louvain clustering:
 
@@ -23,17 +23,15 @@ layout: default
 
 > Reagor & Hudspeth, 2024, [*bioRxiv*](https://doi.org/10.1101/2024.10.15.618534)
 
+- These datasets can also reveal cells' relative maturities during processes like tissue regeneration
+
+> <img src="images/slingshot-pseudotime.png" alt="Pseudotime" width="600"> 
+
 ## Deep learning for causal time-series analysis
 
-- I developed DELAY, a deep-learning method to reconstruct causal networks from single-cell gene-expression datasets
+- I developed the deep-learning method DELAY to reconstruct causal networks from single-cell gene-expression datasets
 
-> <img src="images/slingshot-pseudotime.png" alt="Pseudotime" width="600">
-
-> <figcaption>These datasets reveal cells' relative maturities during processes like tissue regeneration</figcaption>
-
-<br>
-
-- Based on concepts from Granger Causality, I designed DELAY to encode noisy gene-expression data as images for deep learning
+- I designed DELAY to encode noisy gene-expression data as images for deep learning using concepts from Granger Causality 
 
 > ![DELAY](images/DELAY.png)
 
