@@ -47,8 +47,8 @@ layout: default
 
 > <img src="images/DELAY-fig3a.jpeg" alt="Network motifs" width="300">
 
-> DELAY also learns to encode contextual information about network motifs and higher-order interactions
+> DELAY learns to encode contextual information about higher-order interactions
 
-- DELAY successfully identifies central hubs in large-scale networks that regulate the networks' temporal dynamics
+- DELAY successfully identifies central hubs in large-scale networks that regulate networks' temporal dynamics
 
-> <img src="images/grn-hubs-bubble-edited.svg" alt="Network hubs" width="700">
+> <img src="images/grn-hubs-bubble-edited.svg" alt="Network hubs" width="600">
