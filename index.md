@@ -22,7 +22,7 @@ I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph
 
 - To analyze these datasets, I used unsupervised machine-learning methods such as *t*-SNE and Louvain clustering:
 
-<img src="images/tsne-neuromast-annotated.svg" alt="t-SNE example" width="400">
+<img src="images/tsne-neuromast-annotated.svg" alt="t-SNE" width="400">
 
 > Reagor & Hudspeth, 2024, [*bioRxiv*](https://doi.org/10.1101/2024.10.15.618534)
 
@@ -31,17 +31,17 @@ I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph
 - I developed a deep-learning algorithm called DELAY for reconstructing causal networks from single-cell datasets
 - These datasets reveal cells' relative maturity during processes like human brain development:    
 
-<img src="images/mannens_fig4a.png" alt="Pseudotime example" width="150">
+![Pseudotime](images/mannens_fig4a.png)
 
 > Mannens, ..., Reagor, et al., 2024, [*Nature*](https://doi.org/10.1038/s41586-024-07234-1)
 
 - Inspired by Granger Causality and computer vision, I developed DELAY to encode noisy gene-expression data as images
 
-<img src="images/DELAY.png" alt="DELAY" width="800">
+![DELAY](images/DELAY.png)
 
 - DELAY uses a supervised neural network to classify images as either interacting or non-interacting gene pairs
 
-<img src="images/DELAY-fig1b.jpeg" alt="DELAY convolutional network" width="650">
+![DELAY CNN](images/DELAY-fig1b.jpeg)
 
 > Reagor, Velez-Angel & Hudspeth, 2023, [*PNAS Nexus*](https://doi.org/10.1093/pnasnexus/pgad113)
 
