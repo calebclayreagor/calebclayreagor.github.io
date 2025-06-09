@@ -21,6 +21,10 @@ I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph
 
 > Reagor & Hudspeth, 2024, [bioRxiv](https://doi.org/10.1101/2024.10.15.618534)
 
+## Deep learning for time-series analysis
+
+- For my Ph.D. work, I developed a parsimonious deep-learning algorithm for reconstructing causal networks from single-cell datasets
+- 
 
 
 ## Publications
