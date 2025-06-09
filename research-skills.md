@@ -27,6 +27,8 @@ layout: default
 
 > <img src="images/slingshot-pseudotime.png" alt="Pseudotime" width="600"> 
 
+<br>
+
 ## Deep learning for causal time-series analysis
 
 - I developed the deep-learning method [DELAY](https://github.com/calebclayreagor/DELAY) to reconstruct causal gene-regulatory networks from single-cell gene-expression datasets
@@ -41,6 +43,8 @@ layout: default
 
 > <img src="images/DELAY-fig1b.jpeg" alt="DELAY CNN" width="800">
 
+<br>
+
 ## Analysis of large-scale networks
 
 - DELAY effectively reconstructs large-scale networks by inferring causal interactions between individual gene pairs
@@ -49,11 +53,11 @@ layout: default
 
 > DELAY learns to encode contextual information about higher-order interactions
 
-- DELAY successfully identifies central hubs in large-scale networks that regulate networks' temporal dynamics
+- DELAY successfully identifies the central hubs in large-scale networks that regulate networks' temporal dynamics
 
 > <img src="images/grn-hubs-bubble-edited.svg" alt="Network hubs" width="600">
 
-- Beyond DELAY, I developed [custom scripts](https://github.com/agnikdasgupta/Sema7A_regulates_neural_circuitry) to quantify and analyze large neuronal networks from microscopy images
+- Beyond DELAY, I also developed [custom scripts](https://github.com/agnikdasgupta/Sema7A_regulates_neural_circuitry) to quantify and analyze large neuronal networks
 
 > <img src="images/dasgupta-3a.jpg" alt="Neuronal network" width="350">
 > <img src="images/dasgupta-3a-s1.jpg" alt="Neuronal network quantified" width="260">
