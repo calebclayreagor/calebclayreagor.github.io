@@ -1,3 +1,5 @@
+# Caleb C. Reagor, Ph.D.
+
 # Professional Summary
 I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph theory, and advanced machine learning_** for <ins>data-driven problem solving</ins>. I have 5+ years’ experience in developing end-to-end pipelines for translating multi-scale datasets into meaningful insights and actionable knowledge. I develop parsimonious approaches to solve complex, high-dimensional problems while delivering both granular and high-level understanding of models’ behaviors. My work emphasizes cross-functional approaches drawing on techniques from computer vision, autoregressive modeling, and causal inference.
 
