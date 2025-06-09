@@ -53,5 +53,9 @@ layout: default
 
 > <img src="images/grn-hubs-bubble-edited.svg" alt="Network hubs" width="600">
 
-- Beyond DELAY, I have developed custom scripts for collecting and analyzing large neuronal networks from microscopy images
+- Beyond DELAY, I developed custom scripts for collecting and analyzing large neuronal networks from microscopy images
 
+> <img src="images/dasgupta-3a.jpg" alt="Neuronal network" width="350">
+> <img src="images/dasgupta-3a-s1.jpg" alt="Neuronal network quantified" width="260">
+
+> Dasgupta, Reagor, *et al.*, 2024, [*eLife*](https://doi.org/10.7554/eLife.89926.4)
