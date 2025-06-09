@@ -17,9 +17,10 @@ layout: default
 
 - These datasets comprise multiple `cell x feature` matrices of cells' distinct biological properties
 
-- To analyze these datasets, I used unsupervised machine-learning methods such as *t*-SNE and Louvain clustering:
-
-<img src="images/tsne-neuromast-annotated.svg" alt="t-SNE" width="400">
+<figure>
+  <img src="images/tsne-neuromast-annotated.svg" alt="t-SNE" width="400">
+  <figcaption>To analyze these datasets, I used unsupervised machine-learning methods such as *t*-SNE and Louvain clustering</figcaption>
+</figure>
 
 > Reagor & Hudspeth, 2024, [*bioRxiv*](https://doi.org/10.1101/2024.10.15.618534)
 
