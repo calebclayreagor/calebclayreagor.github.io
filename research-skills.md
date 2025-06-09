@@ -28,7 +28,7 @@ layout: default
 - I developed DELAY, a deep-learning method for reconstructing causal networks from single-cell datasets
 - These datasets can reveal cells' relative maturity during processes like tissue regeneration:
 
-![Pseudotime](images/slingshot-pseudotime.svg)
+<img src="images/slingshot-pseudotime.png" alt="Pseudotime" width="600">
 
 - Inspired by Granger Causality, I designed DELAY to encode noisy gene-expression data as images for computer vision
 
