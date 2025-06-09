@@ -1,10 +1,7 @@
-## About me
+## Professional Summary
+I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph theory, and advanced machine learning_** for <ins>data-driven problem solving</ins>. I have 5+ years’ experience developing end-to-end pipelines for effectively translating multi-scale datasets into meaningful insights and actionable knowledge. I focus on developing parsimonious solutions to complex, high-dimensional problems while delivering granular and high-level interpretations of models’ behaviors. My work emphasizes cross-functional approaches drawing from computer vision, autoregressive modeling, and causal inference.
 
-My research focuses on understanding how dynamic gene regulatory networks (GRNs) control cells’ fate decisions during tissue development and regeneration. This work integrates machine learning and single-cell transcriptomics with lineage tracing and genetic perturbations to dissect biologically relevant sub-networks across embryonic tissues and stem cells. I am also interested in bridging computational predictions with experimental validations to relate cells’ distinct phenotypes with underlying mechanisms of gene regulation.
-
-I completed my PhD in the laboratory of [A. J. Hudspeth](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/1186-a-james-hudspeth/) at Rockefeller University in 2024, where I was also a member of the Tri-Institutional PhD Program in Computational Biology and Medicine. My thesis research focused on the development of novel deep-learning methods for GRN reconstruction from single-cell sequencing data, and computational and experimental validations of GRN predictions across diverse cell types, including regenerating sensory cells in larval zebrafish and maturing Purkinje neurons during first-trimester neurodevelopment.   
-
-> 'Day science' employs reasoning that meshes like gears and achieves results with the force of certainty. 'Night science' is a sort of workshop of the possible, where hypotheses take the form of vague presentiments and hazy sensations. -François Jacob
+**_I deliver creative solutions to pressing problems, and I'm ready to contribute to a new, dynamic work environment._**
 
 ## Publications
 
