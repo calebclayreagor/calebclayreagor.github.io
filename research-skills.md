@@ -43,12 +43,12 @@ layout: default
 
 ## Analysis of large-scale networks
 
-- DELAY reconstructs large-scale networks by inferring causal interactions between individual gene pairs
+- DELAY effectively reconstructs large-scale networks by inferring causal interactions between individual gene pairs
 
 > <img src="images/DELAY-fig3a.jpeg" alt="Network motifs" width="300">
 
-> DELAY learns to encode contextual information about higher-order interactions and network motifs
+> DELAY also learns to encode contextual information about network motifs and higher-order interactions
 
-- DELAY identifies central hubs in large-scale networks that regulate the networks' temporal dynamics
+- DELAY successfully identifies central hubs in large-scale networks that regulate the networks' temporal dynamics
 
 > <img src="images/grn-hubs-bubble-edited.svg" alt="Network hubs" width="700">
