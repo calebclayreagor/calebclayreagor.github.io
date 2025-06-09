@@ -29,7 +29,7 @@ layout: default
 
 ## Deep learning for causal time-series analysis
 
-- I developed the deep-learning method DELAY to reconstruct causal gene-regulatory networks from single-cell gene-expression datasets
+- I developed the deep-learning method [DELAY](https://github.com/calebclayreagor/DELAY) to reconstruct causal gene-regulatory networks from single-cell gene-expression datasets
 
 - I designed DELAY to encode noisy gene-expression data as images for deep learning using concepts from Granger Causality 
 
@@ -53,7 +53,7 @@ layout: default
 
 > <img src="images/grn-hubs-bubble-edited.svg" alt="Network hubs" width="600">
 
-- Beyond DELAY, I developed custom scripts to quantify and analyze large neuronal networks from microscopy images
+- Beyond DELAY, I developed [custom scripts](https://github.com/agnikdasgupta/Sema7A_regulates_neural_circuitry) to quantify and analyze large neuronal networks from microscopy images
 
 > <img src="images/dasgupta-3a.jpg" alt="Neuronal network" width="350">
 > <img src="images/dasgupta-3a-s1.jpg" alt="Neuronal network quantified" width="260">
