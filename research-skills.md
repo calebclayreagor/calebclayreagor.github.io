@@ -27,11 +27,11 @@ layout: default
 
 - I developed DELAY, a deep-learning method to reconstruct causal networks from single-cell gene-expression datasets
 
-> <figure>
->   <img src="images/slingshot-pseudotime.png" alt="Pseudotime" width="600">
-  
->   <figcaption>These datasets can reveal cells' relative maturities during processes like tissue regeneration</figcaption>
-> </figure>
+
+> <img src="images/slingshot-pseudotime.png" alt="Pseudotime" width="600">
+
+> <figcaption>These datasets can reveal cells' relative maturities during processes like tissue regeneration</figcaption>
+
 
 - Based on concepts from Granger Causality, I designed DELAY to encode noisy gene-expression data as images for deep learning
 
@@ -39,7 +39,7 @@ layout: default
 
 <br>
 
-- DELAY uses a supervised convolutional neural network to classify images as either interacting or non-interacting gene pairs
+### DELAY uses a supervised convolutional neural network to classify images as either interacting or non-interacting gene pairs
 
 <img src="images/DELAY-fig1b.jpeg" alt="DELAY CNN" width="800">
 
