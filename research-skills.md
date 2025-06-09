@@ -37,8 +37,6 @@ layout: default
 
 > Reagor, Velez-Angel & Hudspeth, 2023, [*PNAS Nexus*](https://doi.org/10.1093/pnasnexus/pgad113)
 
-<br>
-
 - DELAY uses a supervised convolutional neural network to classify images as either interacting or non-interacting gene pairs
 
 > <img src="images/DELAY-fig1b.jpeg" alt="DELAY CNN" width="800">
