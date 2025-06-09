@@ -15,6 +15,7 @@ layout: default
 | ⋮        |   ⋮    |   ⋮    | ⋮   |   ⋮    |
 | Cell_n   |   ⋰    |   ⋯    | ⋰   |   ⋱    |
 
+
 - These datasets often comprise multiple `cell x feature` matrices of cells' distinct biological properties
 
 - To analyze these datasets, I used unsupervised machine-learning methods such as *t*-SNE and Louvain clustering:
