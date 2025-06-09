@@ -1,3 +1,9 @@
+---
+title: Caleb C. Reagor, Ph.D.
+theme: default
+---
+
+
 # Research Skills
 ## High-dimensional & multi-modal data analysis
 - In my Ph.D., I analyzed high-dimensional datasets of single cells' unique profiles from sparse `cell x gene` matrices with thousands of individual features and up to millions of unique observations:
