@@ -15,6 +15,7 @@ layout: default
 | ⋮        |   ⋮    |   ⋮    | ⋮   |   ⋮    |
 | Cell_n   |   ⋰    |   ⋯    | ⋰   |   ⋱    |
 
+<br>
 
 - These datasets often comprise multiple `cell x feature` matrices of cells' distinct biological properties
 
