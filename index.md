@@ -18,7 +18,7 @@ I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph
 > | ⋮       | ⋮  | ⋮  | ⋮  |
 > | Cₙ      | ⋰  | ⋯  | ⋱  |
 
-- These datasets often comprised multiple `cell x feature` matrices of cells' distinct biological properties
+- These datasets often comprise multiple `cell x feature` matrices of cells' distinct biological properties
 
 - To analyze these datasets, I used unsupervised machine-learning methods such as *t*-SNE and Louvain clustering:
 
@@ -28,10 +28,8 @@ I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph
 
 ## Deep learning for causal time-series analysis
 
-- I developed the deep-learning method DELAY for reconstructing causal networks from single-cell datasets
-- These datasets can reveal cells' relative maturity during processes like human brain development:    
-
-<img src="images/mannens-fig4a.png" alt="Pseudotime" width="200">
+- I developed DELAY, a deep-learning method for reconstructing causal networks from single-cell datasets
+- These datasets can reveal cells' relative maturity during processes like human brain development:
 
 > Mannens, ..., Reagor, et al., 2024, [*Nature*](https://doi.org/10.1038/s41586-024-07234-1)
 
@@ -39,7 +37,7 @@ I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph
 
 ![DELAY](images/DELAY.png)
 
-- DELAY uses a supervised neural network to classify images as either interacting or non-interacting gene pairs
+- DELAY uses a supervised convolutional neural network to classify images as either interacting or non-interacting gene pairs
 
 ![DELAY CNN](images/DELAY-fig1b.jpeg)
 
