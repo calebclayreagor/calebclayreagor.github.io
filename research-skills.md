@@ -29,7 +29,7 @@ layout: default
 
 ## Deep learning for causal time-series analysis
 
-- I developed the deep-learning method DELAY to reconstruct causal networks from single-cell gene-expression datasets
+- I developed the deep-learning method DELAY to reconstruct causal gene-regulatory networks from single-cell gene-expression datasets
 
 - I designed DELAY to encode noisy gene-expression data as images for deep learning using concepts from Granger Causality 
 
@@ -40,3 +40,11 @@ layout: default
 - DELAY uses a supervised convolutional neural network to classify images as either interacting or non-interacting gene pairs
 
 > <img src="images/DELAY-fig1b.jpeg" alt="DELAY CNN" width="800">
+
+## Analysis of large-scale networks
+
+- DELAY reconstructs large-scale networks from the bottom up by inferring causal interactions between gene pairs
+
+- DELAY learns to encode contextual information about higher-order interactions and network motifs
+
+  
