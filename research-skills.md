@@ -26,6 +26,9 @@ layout: default
 ## Deep learning for causal time-series analysis
 
 - I developed DELAY, a deep-learning method for reconstructing causal networks from single-cell gene-expression datasets
+
+<br>
+
 - These datasets can reveal cells' relative maturities during processes like tissue regeneration:
 
 <img src="images/slingshot-pseudotime.png" alt="Pseudotime" width="600">
