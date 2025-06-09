@@ -1,12 +1,10 @@
-# Caleb C. Reagor, Ph.D.
-
-# Professional Summary
+## Professional Summary
 I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph theory, and advanced machine learning_** for <ins>data-driven problem solving</ins>. I have 5+ years’ experience in developing end-to-end pipelines for translating multi-scale datasets into meaningful insights and actionable knowledge. I develop parsimonious approaches to solve complex, high-dimensional problems while delivering both granular and high-level understanding of models’ behaviors. My work emphasizes cross-functional approaches drawing on techniques from computer vision, autoregressive modeling, and causal inference.
 
 > **_I deliver creative solutions to pressing research problems, and I'm ready to contribute to a new, dynamic data-science environment._**
 
-# Research Competencies
-## High-dimensional & multi-modal data analysis
+## Research Competencies
+### High-dimensional & multi-modal data analysis
 - In my Ph.D., I analyzed high-dimensional datasets describing single cells' unique profiles using sparse `cell x gene` matrices with thousands of individual features and up to millions of unique observations:
 
 > |         | G₁ | ⋯ | Gₘ |
@@ -23,7 +21,7 @@ I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph
 
 > Reagor & Hudspeth, 2024, [bioRxiv](https://doi.org/10.1101/2024.10.15.618534)
 
-## Deep learning for causal time-series analysis
+### Deep learning for causal time-series analysis
 
 - For my Ph.D., I developed a deep-learning algorithm called DELAY for reconstructing causal networks from single-cell data
 - Single-cell datasets contain information about cells' relative maturity during processes like human brain development:    
