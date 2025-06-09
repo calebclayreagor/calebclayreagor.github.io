@@ -1,11 +1,11 @@
 # Professional Summary
-I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph theory, and advanced machine learning_** for <ins>data-driven problem solving</ins>. I have 5+ years’ experience developing end-to-end pipelines for translating multi-scale datasets into meaningful insights and actionable knowledge. I focus on developing parsimonious solutions to complex, high-dimensional problems while delivering both granular and high-level understanding of models’ behaviors. My work emphasizes cross-functional approaches drawing on techniques from computer vision, autoregressive modeling, and causal inference.
+I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph theory, and advanced machine learning_** for <ins>data-driven problem solving</ins>. I have 5+ years’ experience developing end-to-end pipelines for translating multi-scale datasets into meaningful insights and actionable knowledge. I develop parsimonious solutions to complex, high-dimensional problems while delivering both granular and high-level understanding of models’ behaviors. My work emphasizes cross-functional approaches drawing on techniques from computer vision, autoregressive modeling, and causal inference.
 
-**_I deliver creative solutions to pressing problems, and I'm ready to contribute to a dynamic data-science environment._**
+> **_I deliver creative solutions to pressing problems, and I'm ready to contribute to a dynamic data-science environment._**
 
 # Research Competencies
 ## High-dimensional, multi-modal & multi-scale data analysis
-In my Ph.D., I worked with high-dimensional biological datasets that describe cells' states or profiles as sparse `cell x gene` matrices:
+In my Ph.D., I analyzed high-dimensional datasets describing cells' unique profiles using sparse `cell x gene` matrices:
 
 > |         | G₁ | ⋯ | Gₘ |
 > |---------|----|----|----|
@@ -13,7 +13,12 @@ In my Ph.D., I worked with high-dimensional biological datasets that describe ce
 > | ⋮       | ⋮  | ⋮  | ⋮  |
 > | Cₙ      | ⋰  | ⋯  | ⋱  |
 
-where $10^2<n<10^7$ and $10^3<m<10^6$. 
+where $10^2<cells_n<10^7$ and $10^3<features_m<10^6$.
+
+To gain insight from these matrices, I used unsupervised machine-learning techniques such as *t*-SNE and Louvain clustering. The following example shows how I embedded and clustered a dataset of sensory organ regeneration
+
+
+
 
 
 
