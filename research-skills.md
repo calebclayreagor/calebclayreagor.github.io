@@ -29,6 +29,8 @@ layout: default
 
 <br>
 
+---
+
 ## Deep learning for causal time-series analysis
 
 - I developed the deep-learning method [DELAY](https://github.com/calebclayreagor/DELAY) to reconstruct causal gene-regulatory networks from single-cell gene-expression datasets
@@ -44,6 +46,8 @@ layout: default
 > <img src="images/DELAY-fig1b.jpeg" alt="DELAY CNN" width="800">
 
 <br>
+
+---
 
 ## Analysis of large-scale networks
 
