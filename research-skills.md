@@ -52,3 +52,6 @@ layout: default
 - DELAY successfully identifies central hubs in large-scale networks that regulate networks' temporal dynamics
 
 > <img src="images/grn-hubs-bubble-edited.svg" alt="Network hubs" width="600">
+
+- Beyond DELAY, I have developed custom scripts for collecting and analyzing large neuronal networks from microscopy images
+
