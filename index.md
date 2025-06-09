@@ -4,9 +4,9 @@ layout: default
 ---
 
 # Professional Summary
-I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph theory, and advanced machine learning_** for <ins>data-driven problem solving</ins>. I have 5+ years’ experience in developing end-to-end pipelines for translating multi-scale datasets into meaningful insights and actionable knowledge. I develop parsimonious approaches to solve complex, high-dimensional problems while delivering both granular and high-level understanding of models’ behaviors. My work emphasizes cross-functional approaches drawing from computer vision, autoregressive modeling, and causal inference.
+I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph theory, and advanced machine learning_** for <ins>data-driven problem solving</ins>. I have 5+ years’ experience in developing end-to-end pipelines for translating multi-scale datasets into meaningful insights and actionable knowledge. I develop parsimonious approaches to solving complex, high-dimensional problems while delivering both granular and high-level understanding of models’ behaviors. My work emphasizes cross-functional approaches based in computer vision, autoregressive modeling, and causal inference.
 
-> **_I deliver creative solutions to pressing research problems, and I'm ready to contribute to a dynamic data-science environment._**
+> **_I deliver creative solutions to pressing research problems, and I'm ready to contribute to a dynamic data-science work environment._**
 
 # Research Competencies
 ## High-dimensional & multi-modal data analysis
@@ -18,13 +18,13 @@ I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph
 > | ⋮       | ⋮  | ⋮  | ⋮  |
 > | Cₙ      | ⋰  | ⋯  | ⋱  |
 
-- These datasets often comprised multiple `cell x feature` matrices for distinct aspects of cells' biology.
+- These datasets often comprised multiple `cell x feature` matrices for cells' distinct biological properties
 
 - To analyze these datasets, I used unsupervised machine-learning methods such as *t*-SNE and Louvain clustering:
 
 <img src="images/tsne-neuromast-annotated.svg" alt="t-SNE example" width="400">
 
-> Reagor & Hudspeth, 2024, [bioRxiv](https://doi.org/10.1101/2024.10.15.618534)
+> Reagor & Hudspeth, 2024, [*bioRxiv*](https://doi.org/10.1101/2024.10.15.618534)
 
 ## Deep learning for causal time-series analysis
 
@@ -33,15 +33,17 @@ I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph
 
 <img src="images/mannens_fig4a.png" alt="Pseudotime example" width="150">
 
-> Mannens, ..., Reagor, et al., 2024, [Nature](https://doi.org/10.1038/s41586-024-07234-1)
+> Mannens, ..., Reagor, et al., 2024, [*Nature*](https://doi.org/10.1038/s41586-024-07234-1)
 
-- Inspired by Granger Causality, I developed DELAY to encode noisy gene-expression data as images
+- Inspired by Granger Causality and computer vision, I developed DELAY to encode noisy gene-expression data as images
 
 <img src="images/DELAY.png" alt="DELAY" width="800">
 
 - DELAY uses a supervised neural network to classify images as either interacting or non-interacting gene pairs
 
 <img src="images/DELAY-fig1b.jpeg" alt="DELAY convolutional network" width="650">
+
+> Reagor, Velez-Angel & Hudspeth, 2023, [*PNAS Nexus*](https://doi.org/10.1093/pnasnexus/pgad113)
 
 ## Publications
 
