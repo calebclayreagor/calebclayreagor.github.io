@@ -31,7 +31,7 @@ I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph
 - I developed a deep-learning algorithm called DELAY for reconstructing causal networks from single-cell datasets
 - These datasets reveal cells' relative maturity during processes like human brain development:    
 
-![Pseudotime](images/mannens_fig4a.png)
+<img src="images/mannens-fig4a.png" alt="Pseudotime" width="200">
 
 > Mannens, ..., Reagor, et al., 2024, [*Nature*](https://doi.org/10.1038/s41586-024-07234-1)
 
