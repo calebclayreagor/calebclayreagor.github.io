@@ -6,7 +6,7 @@ layout: default
 
 # Research Skills
 ## High-dimensional & multi-modal data analysis
-- In my Ph.D., I analyzed high-dimensional datasets of single cells' unique profiles from sparse `cell x gene` matrices with thousands of individual features and up to tens of millions of unique observations:
+- In my Ph.D., I analyzed high-dimensional single-cell datasets using sparse `cell x gene` matrices with thousands of individual features and up to tens of millions of unique cells:
 
 > |          | Gene_1 | Gene_2 | ⋯   | Gene_m |
 > |----------|--------|--------|-----|--------|
@@ -15,17 +15,13 @@ layout: default
 > | ⋯        |   ⋯    |   ⋯    | ⋯   |   ⋯    |
 > | Cell_n   |   ⋯    |   ⋯    |  ⋯   |   ⋯    |
 
-- These datasets comprised multi-modal `cell x feature` matrices of cells' distinct biological properties
+- These datasets comprised multiple `cell x feature` matrices that described the multi-modal profile of each cell
 
-- To analyze these datasets, I used unsupervised machine-learning methods such as *t*-SNE and Louvain clustering:
+- To analyze the datasets, I used unsupervised machine-learning methods such as *t*-SNE and Louvain clustering:
 
 > <img src="images/tsne-neuromast-annotated.svg" alt="t-SNE" width="400">
 
 > Reagor & Hudspeth, 2024, [*bioRxiv*](https://doi.org/10.1101/2024.10.15.618534)
-
-- These datasets also reveal cells' relative maturities during processes like tissue regeneration
-
-> <img src="images/slingshot-pseudotime.png" alt="Pseudotime" width="600"> 
 
 <br>
 
@@ -35,13 +31,13 @@ layout: default
 
 - I developed the deep-learning method [DELAY](https://github.com/calebclayreagor/DELAY) to reconstruct causal gene-regulatory networks from single-cell gene-expression datasets
 
-- I designed DELAY to encode noisy gene-expression data as images for deep learning using concepts from Granger Causality 
+- Using concepts from Granger Causality, I designed DELAY to encode noisy gene-expression data as images for deep learning 
 
 > ![DELAY](images/DELAY.png)
 
 > Reagor, Velez-Angel & Hudspeth, 2023, [*PNAS Nexus*](https://doi.org/10.1093/pnasnexus/pgad113)
 
-- DELAY uses a supervised convolutional neural network to classify images as either interacting or non-interacting gene pairs
+- DELAY uses a custom convolutional neural network to classify images as either interacting or non-interacting gene pairs
 
 > <img src="images/DELAY-fig1b.jpeg" alt="DELAY CNN" width="800">
 
@@ -51,14 +47,12 @@ layout: default
 
 ## Analysis of large-scale networks
 
-- DELAY effectively reconstructs large-scale networks by inferring causal interactions between individual gene pairs
+- To reconstruct large-scale genetic networks, I trained DELAY to predict causal interactions between small clusters of genes
 
-> <img src="images/DELAY-fig3a.jpeg" alt="Network motifs" width="300">
-
-> DELAY learns to encode contextual information about higher-order interactions
-
-- DELAY successfully identifies the central hubs in large-scale networks that regulate networks' temporal dynamics
+- I then used DELAY to identify the nodes (genes) that control temporal expression dynamics in the network
 
 > <img src="images/grn-hubs-bubble-edited.svg" alt="Network hubs" width="600">
 
-- Beyond DELAY, I also developed [custom scripts](https://github.com/agnikdasgupta/Sema7A_regulates_neural_circuitry) to quantify and analyze large neuronal networks
+> To validate this reconstructed network, I performed experiments on regenerating zebrafish
+
+- Beyond DELAY, I also developed [custom scripts](https://github.com/agnikdasgupta/Sema7A_regulates_neural_circuitry) to quantify and analyze neuronal networks
