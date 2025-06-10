@@ -28,22 +28,22 @@ theme: default
 - UMAP
 - *t*-SNE
 - PCA
-- Variational autoencoders
+- Variational autoencoder
 - Graph embedding
 
 ### Clustering
 - K-means
-- Gaussian mixtures
+- Gaussian mixture
 - Louvain
 - Leiden
 
 ### Neural Networks
-- MLPs
-- Convolutional neural networks
-- Graph neural networks
+- MLP
+- Convolutional neural network
+- Graph neural network
 - Transformers
-- Recurrent neural networks
-- Adversarial networks
+- Recurrent neural network
+- Adversarial network
 - NLP
 
 ## Bayesian Statistics
