@@ -23,7 +23,7 @@ layout: default
 
 > Reagor & Hudspeth, 2024, [*bioRxiv*](https://doi.org/10.1101/2024.10.15.618534)
 
-- These datasets can also reveal cells' relative maturities during processes like tissue regeneration
+- These datasets also reveal cells' relative maturities during processes like tissue regeneration
 
 > <img src="images/slingshot-pseudotime.png" alt="Pseudotime" width="600"> 
 
