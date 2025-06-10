@@ -15,7 +15,7 @@ layout: default
 > | ⋯        |   ⋯    |   ⋯    | ⋯   |   ⋯    |
 > | Cell_n   |   ⋯    |   ⋯    |  ⋯   |   ⋯    |
 
-- These datasets comprised multiple `cell x feature` matrices that described multi-modal profiles for each cell
+- These datasets contained multiple `cell x feature` matrices that described the multi-modal profile for each cell
 
 - To analyze the datasets, I used unsupervised machine-learning methods such as *t*-SNE and Louvain clustering:
 
@@ -47,12 +47,12 @@ layout: default
 
 ## Analysis of large-scale networks
 
-- To reconstruct large-scale genetic networks, I trained DELAY to predict causal interactions between small clusters of genes
+- To reconstruct large-scale genetic networks, I inferred causal interactions between small clusters of genes
 
-- Then, I used DELAY to identify nodes (genes) that control the network's temporal expression dynamics
+- Then, I used graph theory to identify the nodes (genes) that control temporal expression dynamics in the network
 
 > <img src="images/grn-hubs-bubble-edited.svg" alt="Network hubs" width="600">
 
-> To validate this reconstructed network, I performed experiments with regenerating zebrafish
+> To validate this reconstructed network, I performed experiments on regenerating zebrafish
 
 - Beyond DELAY, I also developed [custom scripts](https://github.com/agnikdasgupta/Sema7A_regulates_neural_circuitry) to quantify and analyze neuronal networks
