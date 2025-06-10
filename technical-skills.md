@@ -22,7 +22,7 @@ theme: default
 - Docker
 - Weights & Biases
 - TensorBoard
-- HDF
+- HDF5
 
 ## Machine Learning Approaches
 ### Dimensionality Reduction
