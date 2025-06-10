@@ -62,8 +62,3 @@ layout: default
 > <img src="images/grn-hubs-bubble-edited.svg" alt="Network hubs" width="600">
 
 - Beyond DELAY, I also developed [custom scripts](https://github.com/agnikdasgupta/Sema7A_regulates_neural_circuitry) to quantify and analyze large neuronal networks
-
-> <img src="images/dasgupta-3a.jpg" alt="Neuronal network" width="350">
-> <img src="images/dasgupta-3a-s1.jpg" alt="Neuronal network quantified" width="260">
-
-> Dasgupta, Reagor, *et al.*, 2024, [*eLife*](https://doi.org/10.7554/eLife.89926.4)
