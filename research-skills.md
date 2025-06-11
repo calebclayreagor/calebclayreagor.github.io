@@ -15,7 +15,7 @@ layout: default
 > | ⋯        |   ⋯    |   ⋯    | ⋯   |   ⋯    |
 > | Cell_n   |   ⋯    |   ⋯    |  ⋯   |   ⋯    |
 
-- These datasets contained multiple `cell x feature` matrices that described multi-modal profiles for each cell
+- These datasets contained multiple `cell x feature` matrices with the multi-modal profiles for each cell
 
 - To analyze these datasets, I used unsupervised machine-learning methods such as *t*-SNE and Louvain clustering:
 
