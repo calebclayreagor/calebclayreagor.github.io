@@ -15,9 +15,9 @@ layout: default
 > | ⋯        |   ⋯    |   ⋯    | ⋯   |   ⋯    |
 > | Cell_n   |   ⋯    |   ⋯    |  ⋯   |   ⋯    |
 
-- These datasets contained multiple `cell x feature` matrices that described the multi-modal profile for each cell
+- These datasets contained multiple `cell x feature` matrices that described multi-modal profiles for each cell
 
-- To analyze the datasets, I used unsupervised machine-learning methods such as *t*-SNE and Louvain clustering:
+- To analyze these datasets, I used unsupervised machine-learning methods such as *t*-SNE and Louvain clustering:
 
 > <img src="images/tsne-neuromast-annotated.svg" alt="t-SNE" width="400">
 
@@ -49,7 +49,7 @@ layout: default
 
 - To reconstruct large-scale networks, I inferred causal interactions between small clusters of genes
 
-- I then used graph theory to identify the nodes (genes) that control the network's temporal dynamics
+- I used graph theory to identify the nodes (genes) that control the network's temporal dynamics
 
 > <img src="images/grn-hubs-bubble-edited.svg" alt="Network hubs" width="600">
 
