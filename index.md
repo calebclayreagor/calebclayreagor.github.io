@@ -9,5 +9,6 @@ I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph
 ### I deliver creative solutions to important research problems and I'm ready to contribute to a dynamic work environment
 
 ## Career Highlights
-<img src="images/grad-cap.png" alt="Graduation cap" width="25"> Ph.D. in Computational Biology, The Rockefeller University, 2024
+<img src="images/grad-cap.png" alt="School" width="25"> Ph.D. in Computational Biology, The Rockefeller University, 2024
 
+<img src="images/briefcase.jpg" alt="Work" width="25"> Postdoctoral Fellow, Karolinska Institutet / The Rockefeller University, 2025
