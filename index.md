@@ -6,7 +6,7 @@ layout: default
 # Professional Summary
 I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph theory, and advanced machine learning for data-driven problem solving_**. My work emphasizes cross-functional approaches based on computer vision, autoregressive modeling, Bayesian statistics, and causal inference.
 
-- 5+ years of experience developing advanced machine-learning techniques for multi-modal dataset analysis
+- 5+ years of experience developing advanced machine-learning techniques for multi-modal analysis
 - Developing explainable AI to solve large-scale problems in time-series and network analysis
 
 ## Career Highlights
