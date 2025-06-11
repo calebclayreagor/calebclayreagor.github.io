@@ -7,7 +7,7 @@ layout: default
 I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph theory, and advanced machine learning for data-driven problem solving_**. My work emphasizes cross-functional approaches based on computer vision, autoregressive modeling, Bayesian statistics, and causal inference.
 
 - 5+ years of experience developing advanced machine-learning techniques for multi-modal analysis
-- Developing explainable AI to solve large-scale problems in time-series and network analysis
+- Expert developer of explainable AI for analyzing large-scale datasets in time series and networks
 
 ## Career Highlights
 <img src="images/grad-cap.png" alt="School" width="25"> Ph.D. in Computational Biology
