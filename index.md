@@ -4,19 +4,13 @@ layout: default
 ---
 
 # Professional Summary
-I'm a Ph.D. data scientist with deep expertise in **_time-series analysis, graph theory, and advanced machine learning for data-driven problem solving_**. My work emphasizes cross-functional approaches based on computer vision, autoregressive modeling, Bayesian statistics, and causal inference.
-
-- 5+ years of experience developing advanced ML techniques for multi-modal data analysis
-- Expert in developing explainable AI for large-scale analysis of time series and networks
+Ph.D. data scientist with **_six years of experience developing and training deep neural networks for temporal and network-structured data._** Skilled in supervised and unsupervised methods including deep learning, classical ML, and stochastic modeling.
 
 ## Career Highlights
-<img src="images/grad-cap.png" alt="School" width="25"> Ph.D. in Computational Biology
-- The Rockefeller University, New York, NY
-- July 2019 - December 2024
-
-<img src="images/briefcase.jpg" alt="Work" width="25"> Postdoctoral Researcher
-- The Rockefeller University, New York, NY
-- Karolinska Institutet, Stockholm, Sweden (remote)
+<img src="images/briefcase.jpg" alt="Work" width="25"> Postdoctoral Researcher, Karolinska Institutet (Remote — New York, NY)
 - January 2025 - Present
 
-### I deliver creative solutions to important research problems and I'm ready to contribute to a dynamic work environment
+<img src="images/grad-cap.png" alt="School" width="25"> Ph.D., Computational Biology, Rockefeller University (New York, NY)
+- July 2019 - November 2024
+
+### Developing creative modeling solutions to solve large-scale data science problems.
