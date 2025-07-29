@@ -5,49 +5,67 @@ theme: default
 
 # Technical Skills
 ## Programming Languages
-- Python
-- R
+- <ins>_Python_</ins>
+- <ins>_R_</ins>
 - Bash
-- Matlab
+- MATLAB
+- SQL
 
-## Machine Learning Frameworks
-- PyTorch
+## Deep Learning Frameworks
+- <ins>_PyTorch_</ins>
+- <ins>_Lightning_</ins>
+- PyTorch Geometric
 - TensorFlow
-- LightningAI
 - Keras
 - JAX
 
-## Reproducible & Scalable Workflows
+## Scientific & Statistical Modeling
+- NumPy
+- SciPy
+- pandas
+- scikit-learn
+- NetworkX
+- statsmodels
+
+## Data visualization
+- matplotlib
+- seaborn
+- Plotly
+- ggplot2
+
+## Workflow Tools
 - GitHub
 - Docker
 - Weights & Biases
 - TensorBoard
-- HDF5
 
-## Machine Learning Approaches
-### Dimensionality Reduction
-- UMAP
-- *t*-SNE
-- PCA
-- Variational autoencoder
-- Graph embedding
-
-### Clustering
-- K-means
-- Gaussian mixture
-- Louvain
-- Leiden
-
-### Neural Networks
+## Modeling Techniques
+### Deep neural networks
+- <ins>_CNN_</ins>
+- <ins>_VAE_</ins>
+- <ins>_GNN_</ins>
 - MLP
-- Convolutional neural network
-- Graph neural network
-- Transformers
-- Recurrent neural network
-- Adversarial network
-- NLP
+- Transformer
+- RNN
+- LLM
 
-## Bayesian Statistics
-- Markov chain Monte Carlo
-- PyMC
-- Parallel tempering
+### Learning Strategies
+- <ins>_Supervised_</ins>
+- <ins>_Transfer_</ins>
+- <ins>_Self-supervised_</ins>
+- Unsupervised
+- Contrastive
+- RAG
+
+### Traditional ML Methods
+- <ins>_GAM_</ins>
+- <ins>_GLM_</ins>
+- SVM
+- Random Forest
+- NMF
+- Hierarchical Clustering
+
+### Probabilistic Methods
+- Stochastic Simulation
+- Markov Chain Monte Carlo
+- Bayesian Inference
