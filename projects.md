@@ -20,13 +20,13 @@ layout: default
 
 - I developed and maintain the deep-learning method [DELAY](https://github.com/calebclayreagor/DELAY) to reconstruct causal networks from temporal biological data
 
-- DELAY encodes autoregressive relationships between features (genes) as 3D stacks of 2D images
+- DELAY encodes autoregressive relationships between features (genes) as stacks of 2D images
 
 > ![DELAY](images/DELAY.png)
 
 > Reagor, Velez-Angel & Hudspeth, 2023, [*PNAS Nexus*](https://doi.org/10.1093/pnasnexus/pgad113)
 
-- DELAY uses a CNN to classify features as either interacting (A -> B) or non-interacting (A -x-> B) 
+- DELAY uses a CNN to classify features (genes) as interacting (A -> B) or non-interacting (A -x-> B) 
 
 > <img src="images/DELAY-fig1b.jpeg" alt="DELAY CNN" width="800">
 
