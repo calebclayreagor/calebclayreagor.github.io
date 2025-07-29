@@ -37,3 +37,5 @@ layout: default
 - I used graph-structure analysis to discover influential nodes (genes) in the reconstructed networks
 
 > <img src="images/grn-hubs-bubble-edited.svg" alt="Network hubs" width="600">
+
+> Reagor, Bravo & Hudspeth, 2025, _PeerJ_
