@@ -10,8 +10,6 @@ Ph.D. data scientist with **_six years of experience developing and training dee
 <img src="images/briefcase.jpg" alt="Work" width="25"> Postdoctoral Researcher, Karolinska Institutet (Remote — New York, NY)
 - January 2025 - Present
 
-<br>
-
 <img src="images/grad-cap.png" alt="School" width="25"> Ph.D., Computational Biology, Rockefeller University (New York, NY)
 - July 2019 - November 2024
 
