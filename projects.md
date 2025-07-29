@@ -3,6 +3,7 @@ title: Caleb C. Reagor, Ph.D.
 layout: default
 ---
 
+# Projects
 ## Big-data analytics
 - I have _six years of experience analyzing large-scale and high-dimensional datasets_ from biological experiments with millions of observations (cells) and thousands of features (genes):
 
