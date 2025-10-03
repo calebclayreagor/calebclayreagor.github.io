@@ -4,7 +4,7 @@ layout: default
 ---
 
 # Professional Summary
-Ph.D. data and machine learning scientist with **_six years of experience developing and training deep neural networks for temporal, visual, and network-structured data._** Skilled in supervised and unsupervised methods including deep learning, classical ML, and stochastic modeling.
+Ph.D. data and machine learning scientist with **_six years of experience developing and training deep neural networks for spatial, temporal, vision, and network-structured data._** Skilled in supervised and unsupervised methods including deep learning, classical ML, and stochastic modeling.
 
 ## Career Highlights
 <img src="images/briefcase.jpg" alt="Work" width="25"> Postdoctoral Researcher, Karolinska Institutet (Remote — New York, NY)
