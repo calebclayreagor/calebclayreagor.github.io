@@ -51,6 +51,7 @@ theme: default
 - <ins>_GitHub_</ins>
 - <ins>_Weights & Biases_</ins>
 - <ins>_TensorBoard_</ins>
+- <ins>_Conda_</ins>
 - Docker
 
 ## Modeling Techniques
