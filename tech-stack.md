@@ -10,37 +10,51 @@ theme: default
 - Bash
 - MATLAB
 - SQL
+- Java
+- HTML
 
-## Deep Learning Frameworks
+## Deep Learning
 - <ins>_PyTorch_</ins>
 - <ins>_Lightning_</ins>
 - PyTorch Geometric
+- Captum
 - TensorFlow
 - Keras
 - JAX
 
-## Scientific & Statistical Modeling
-- NumPy
-- SciPy
-- pandas
-- scikit-learn
-- NetworkX
-- statsmodels
+## Data Science
+- <ins>_NumPy_</ins>
+- <ins>_SciPy_</ins>
+- <ins>_pandas_</ins>
+- <ins>_scikit-learn_</ins>
+- <ins>_NetworkX_</ins>
+- <ins>_GeoPandas_</ins>
+- shapely
+- contextily
 
-## Data visualization
-- matplotlib
-- seaborn
+## Statistical Modeling
+- <ins>_statsmodels_</ins>
+- <ins>_R Stats_</ins>
+- pyABC
+- pyMC
+- lifelines
+
+## Data Visualization
+- <ins>_matplotlib_</ins>
+- <ins>_seaborn_</ins>
+- <ins>_ggplot2_</ins>
 - Plotly
-- ggplot2
+- Bokeh
 
 ## Workflow Tools
-- GitHub
+- <ins>_Git_</ins>
+- <ins>_GitHub_</ins>
+- <ins>_Weights & Biases_</ins>
+- <ins>_TensorBoard_</ins>
 - Docker
-- Weights & Biases
-- TensorBoard
 
 ## Modeling Techniques
-### Deep neural networks
+### Deep Neural Networks
 - <ins>_CNN_</ins>
 - <ins>_VAE_</ins>
 - <ins>_GNN_</ins>
@@ -57,15 +71,18 @@ theme: default
 - Contrastive
 - RAG
 
-### Traditional ML Methods
+### Traditional ML
+- <ins>_Regression_</ins>
 - <ins>_GAM_</ins>
 - <ins>_GLM_</ins>
+- <ins>_DBSCAN_</ins>
+- <ins>_SVD_</ins>
 - SVM
 - Random Forest
 - NMF
 - Hierarchical Clustering
 
 ### Probabilistic Methods
-- Stochastic Simulation
-- Markov Chain Monte Carlo
+- <ins>_Stochastic Simulation_</ins>
+- <ins>_Markov Chain Monte Carlo_</ins>
 - Bayesian Inference
