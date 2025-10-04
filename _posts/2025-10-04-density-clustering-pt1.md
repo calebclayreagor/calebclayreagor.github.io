@@ -19,8 +19,12 @@ This is Part 1 of two blog posts that I'm writing to highlight my recent project
 
 Density-based clustering is a nonparametric method that can detect continuous regions with similar densities of observations across a dataset. Many popular implementations such as DBSCAN (<ins>D</ins>ensity-<ins>B</ins>ased <ins>S</ins>patial <ins>C</ins>lustering of <ins>A</ins>pplications with <ins>N</ins>oise) also allow for outliers to remain unclustered as noise. These algorithms generally rely on two key parameters: the neighborhood radius $\epsilon$, and the density required to define a "core" observation. In the example below, the darker shaded regions contain core observations while the lighter regions define the border between clusters and noise.
 
-| ![DBSCAN example](\images\posts\2025-10-04-density-clustering-pt1\DBSCAN-density-data.svg) |
-|:--:|
-| “DBSCAN density data” — Chire, Wikimedia Commons, CC BY-SA 3.0 |
+<div align="center">
+
+![DBSCAN example](\images\posts\2025-10-04-density-clustering-pt1\DBSCAN-density-data.svg)
+
+“DBSCAN density data” — Chire, Wikimedia Commons, CC BY-SA 3.0
+
+</div>
 
 (Next, talk about why density-based clustering is good for urban dynamics)
