@@ -1,7 +1,7 @@
 ---
 title: "Density Clustering — Part 1"
 layout: default
-date: 2025-10-06 00:00:00 -0000
+date: 2025-10-04 00:00:00 -0000
 categories: geospatial-analysis density-clustering
 ---
 
