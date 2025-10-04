@@ -28,3 +28,6 @@ Wikimedia Commons, CC BY-SA 3.0
 </div>
 
 (Next, talk about why density-based clustering is good for urban dynamics)
+
+<script>window.MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script"></script>
