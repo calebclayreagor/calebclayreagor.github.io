@@ -1,6 +1,6 @@
 ---
 title: Caleb C. Reagor, Ph.D.
-layout: page
+layout: default
 ---
 
 <ul class="post-list">
