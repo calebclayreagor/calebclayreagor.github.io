@@ -5,7 +5,9 @@ date: 2025-10-04 00:00:00 -0000
 categories: geospatial-analysis density-clustering
 ---
 
-# Ridesharing Is Caring — Geospatial Density Clustering (Part 1)
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+# Ridesharing Is Caring — Geospatial Density-Based Clustering (Part 1)
 
 October 4th, 2025
 
@@ -17,7 +19,7 @@ This is Part 1 of two blog posts that I'm writing to highlight my recent project
 
 ## What is density-based clustering?
 
-Density-based clustering is a nonparametric method that can detect continuous regions with similar densities of observations across a dataset. Many popular implementations such as DBSCAN (<ins>D</ins>ensity-<ins>B</ins>ased <ins>S</ins>patial <ins>C</ins>lustering of <ins>A</ins>pplications with <ins>N</ins>oise) also allow for outliers to remain unclustered as noise. These algorithms generally rely on two key parameters: the neighborhood radius $\epsilon$, and the density required to define "core" observations. In the example below, the darker regions contain the core observations while the lighter regions define the border between the clusters and the noise.
+Density-based clustering is a nonparametric method that can detect continuous regions with similar densities of observations across a dataset. Many popular implementations such as DBSCAN (<ins>D</ins>ensity-<ins>B</ins>ased <ins>S</ins>patial <ins>C</ins>lustering of <ins>A</ins>pplications with <ins>N</ins>oise) also allow for outliers to remain unclustered as noise. These algorithms generally rely on two key parameters: the neighborhood radius \(\epsilon)\, and the density required to define a "core" observation. In the example below, the darker regions contain core observations while the lighter regions define the border between clusters and noise.
 
 <div align="center" markdown="1">
 
