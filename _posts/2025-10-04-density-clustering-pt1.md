@@ -87,7 +87,7 @@ After deduplication, my [data cleaning pipeline](https://github.com/calebclayrea
 
 ### Iterative density-based clustering
 
-Because density-based clustering allows for outliers, these algorithms tend to leave many observations unclustered. To aggregate as many trips into clusters as possible, I implemented an iterative [HDBSCAN](https://github.com/scikit-learn-contrib/hdbscan) (<ins>H</ins>ierarchical DBSCAN) approach that sequentially clustered any remaining observations from the previous step while relaxing the minimum cluster size, from 6 to 2 riders (more on these values later). My input features consisted of pickup locations $x_0,y_0$ and times $t_0$ and dropoff locations $x_1,y_1$, and HDBSCAN returned cluster labels $k$ for each trip/passenger. Here's what my clustering results looked like after each iteration:
+Because density-based clustering allows for outliers, these algorithms tend to leave many observations unclustered. To aggregate as many trips into clusters as possible, I implemented an iterative [HDBSCAN](https://github.com/scikit-learn-contrib/hdbscan) (<ins>H</ins>ierarchical DBSCAN) approach that sequentially clustered any remaining observations from the previous step while relaxing the minimum cluster size, from 6 to 2 riders (more on these values later). My input features consisted of pickup locations $x_0,y_0$ and times $t_0$ and dropoff locations $x_1,y_1$, and the outputs were cluster labels $k$ for each trip/passenger. Here's what my clustering results looked like after each iteration:
 
 ```
 Iteration 0 (min_cluster_size = 6): % clustered = 10.89
@@ -97,7 +97,7 @@ Iteration 3 (min_cluster_size = 3): % clustered = 62.15
 Iteration 4 (min_cluster_size = 2): % clustered = 84.11
 ```
 
-Another important detail for [my implementation](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/01_clustering.ipynb) is how I scaled time relative to distance. The scaling of minutes-per-mile acts as a knob that controls the tradeoff between spatial and temporal coherence. To select the best value, I performed a parameter sweep from 10 to 60 minutes/mile for one HDBSCAN iteration only. The results below show that smaller values ($\leq$ 10 min/mile) favor tighter temporal clusters, while larger values ($\geq$ 60 min/mile) favor tighter spatial clusters:
+Another important detail for [my implementation](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/01_clustering.ipynb) is how I scaled time relative to distance. The scaling of minutes-per-mile is a knob that controls the tradeoff between spatial and temporal coherence. To select the best value, I performed a parameter sweep from 10 to 60 minutes/mile for one HDBSCAN iteration only. The results show that smaller values ($\leq$ 10 min/mile) favor tighter temporal clusters, while larger values ($\geq$ 60 min/mile) favor tighter spatial clusters:
 
 <div align="center" markdown="1">
 
@@ -107,11 +107,11 @@ Another important detail for [my implementation](https://github.com/calebclayrea
 
 ### Final clustering results and statistics
 
-Based on the parameter sweep, I performed my final clustering with a spatiotemporal scale of 25 minutes/mile, which identified clusters with pickup and dropoff locations within ~0.2 miles and ~5 minutes apart:
+Based on the sweep, I performed my final clustering with a spatiotemporal scale of 25 minutes/mile and identified clusters with ~5 passengers each and pickup/dropoff locations ~0.2 miles apart and times ~5 minutes apart:
 
 <div align="center" markdown="1">
 
-![Location spread](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/9be412b09ddf24848c57f5a783562c9b434a4352/figures/cluster_rms_distance.svg)![Time spread](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/9be412b09ddf24848c57f5a783562c9b434a4352/figures/cluster_std_time.svg)
+![Cluster size](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/cluster_size.svg)![Location spread](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/9be412b09ddf24848c57f5a783562c9b434a4352/figures/cluster_rms_distance.svg)![Time spread](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/9be412b09ddf24848c57f5a783562c9b434a4352/figures/cluster_std_time.svg)
 
 </div>
 
