@@ -97,7 +97,7 @@ Iteration 3 (min_cluster_size = 3): % clustered = 62.15
 Iteration 4 (min_cluster_size = 2): % clustered = 84.11
 ```
 
-Another important detail for [my implementation](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/01_clustering.ipynb) is how I scaled time relative to distance. The scaling of minutes-per-mile is a knob that controls the tradeoff between spatial and temporal coherence. To select the best value, I performed a parameter sweep from 10 to 60 minutes/mile for one HDBSCAN iteration only. The results show that smaller values ($\leq$ 10 min/mile) favor tighter temporal clusters, while larger values ($\geq$ 60 min/mile) favor tighter spatial clusters:
+Another important parameter for [my implementation](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/01_clustering.ipynb) was the relative scaling of time *vs.* distance, which controlled the tradeoff between spatial and temporal coherence. To select the best value, I performed a parameter sweep from 10 to 60 minutes/mile for one HDBSCAN iteration only. The results showed that smaller values ($\leq$ 10 min/mile) favored tighter temporal clusters, while larger values ($\geq$ 60 min/mile) favored tighter spatial clusters:
 
 <div align="center" markdown="1">
 
@@ -105,7 +105,7 @@ Another important detail for [my implementation](https://github.com/calebclayrea
 
 </div>
 
-### Final clustering results and statistics
+### Quality of the identified clusters
 
 Based on the sweep, I performed my final clustering with a spatiotemporal scale of 25 minutes/mile and identified clusters with ~5 passengers each and pickup/dropoff locations ~0.2 miles apart and times ~5 minutes apart:
 
@@ -115,3 +115,6 @@ Based on the sweep, I performed my final clustering with a spatiotemporal scale 
 
 </div>
 
+---
+
+## Defining and tracking ridesharing efficiency
