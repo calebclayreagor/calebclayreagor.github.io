@@ -70,7 +70,7 @@ Thanks to a [FOIA request]((http://www.andresmh.com/nyctaxitrips/)) by Chris Won
 ```python
 trip = (trip
         .loc[(trip.passenger_count > 0) & (trip.passenger_count < 10)]                   # 0 < number of passengers < 10
-        .loc[trip.trip_time > dt]                                                        # tip time > 1 min
+        .loc[trip.trip_time > dt]                                                        # trip time > 1 min
         .loc[trip.time_delta > dt]                                                       # end minus start time > 1 min
         .loc[(trip.trip_time - trip.time_delta).abs() < dt]                              # trip time equals time delta
         .loc[(trip.trip_distance > dlim[0]) & (trip.trip_distance < dlim[1])]            # .1 mile < actual distance < 30 miles
@@ -85,16 +85,16 @@ trip = (trip
 
 After deduplication, my [data cleaning pipeline](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/00_cleaning.ipynb) selected just over 1.5 million trips for downstream analysis.
 
-### An iterative density-based clustering approach
+### Iterative density-based clustering approach
 
-Because density-based clustering allows for noise, these algorithms tend to leave many observations unclustered. To aggregate as many trips into clusters as possible, I implemented an iterative [hierarchical DBSCAN](https://github.com/scikit-learn-contrib/hdbscan) (<ins>H</ins>DBSCAN) approach that sequentially clustered remaining observations from the previous step while relaxing the minimum required cluster size from 6 to 2 riders (more on these values later). My input features to HDBSCAN consisted of pickup locations $x_0,y_0$ and times $t_0$ and dropoff locations $x_1,y_1$ and returned cluster labels $k$ for each trip and passenger. Here's what the clustering looked like after each iteration:
+Because density-based clustering allows for noise, these algorithms tend to leave many observations unclustered. To aggregate as many trips into clusters as possible, I implemented an iterative [hierarchical DBSCAN](https://github.com/scikit-learn-contrib/hdbscan) (<ins>H</ins>DBSCAN) approach that sequentially clusters remaining observations from the previous step while relaxing the minimum required cluster size from 6 to 2 riders (more on these values later). My input features consisted of pickup locations $x_0,y_0$ and times $t_0$ and dropoff locations $x_1,y_1$ and returned cluster labels $k$ for each trip and passenger. Here's what the results looked like after each iteration:
 
 ```
-Iteration 0 (min_cluster_size = 6): clustered = 10.89%
-Iteration 1 (min_cluster_size = 5): clustered = 27.17%
-Iteration 2 (min_cluster_size = 4): clustered = 44.57%
-Iteration 3 (min_cluster_size = 3): clustered = 62.15%
-Iteration 4 (min_cluster_size = 2): clustered = 84.11%
+Iteration 0 (min_cluster_size = 6): % clustered = 10.89
+Iteration 1 (min_cluster_size = 5): % clustered = 27.17
+Iteration 2 (min_cluster_size = 4): % clustered = 44.57
+Iteration 3 (min_cluster_size = 3): % clustered = 62.15
+Iteration 4 (min_cluster_size = 2): % clustered = 84.11
 ```
 
-Another important detail of [my implementation](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/01_clustering.ipynb) is how I scaled times relative to distances. The value of minutes-per-mile acts as a knob controlling the tradeoff between spatial and temporal coherence. To select the best value, I performed a parameter sweep over values from 10 to 60 minutes/mile for a single HDBSCAN iteration. The results show how smaller values ($\leq$ 10 min/mile) favor tighter temporal clusters, while larger values ($\geq$ 60 min/mile) favor tighter spatial clusters:
+Another important detail of [my implementation](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/01_clustering.ipynb) is how I scaled time relative to distances. The value of minutes-per-mile acts as a knob that controls the tradeoff between spatial and temporal coherence. To select the best value, I performed a parameter sweep over values from 10 to 60 minutes/mile for one HDBSCAN iteration. The results show that smaller values ($\leq$ 10 min/mile) favor tighter temporal clusters, while larger values ($\geq$ 60 min/mile) favor tighter spatial clusters:
