@@ -28,7 +28,7 @@ This is Part 1 of two blog posts that I'm writing to highlight my recent project
 
 ## What is density-based clustering?
 
-Density-based clustering is a nonparametric method that can detect continuous regions with similar densities of observations across a dataset. Many popular implementations such as DBSCAN (<ins>D</ins>ensity-<ins>B</ins>ased <ins>S</ins>patial <ins>C</ins>lustering of <ins>A</ins>pplications with <ins>N</ins>oise) allow outliers to remain unclustered as noise. These algorithms generally rely on two key parameters: the neighborhood radius $\epsilon$, and the minimum number of neighbors for each "core" observation. In the example below, the darker regions show the core observations while the lighter regions depict the border between the clusters and noise.
+Density-based clustering is a nonparametric method that can detect continuous regions with similar densities of observations across a dataset. Many popular implementations such as DBSCAN (<ins>D</ins>ensity-<ins>B</ins>ased <ins>S</ins>patial <ins>C</ins>lustering of <ins>A</ins>pplications with <ins>N</ins>oise) allow outliers to remain unclustered. These algorithms generally rely on two key parameters: the neighborhood radius $\epsilon$, and the minimum number of neighbors for each "core" observation. In the example below, the darker regions show the core observations while the lighter regions depict the border between the clusters and the noise.
 
 <div align="center" markdown="1">
 
