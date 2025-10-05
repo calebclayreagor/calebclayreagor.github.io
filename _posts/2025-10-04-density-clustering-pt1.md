@@ -58,7 +58,7 @@ I recently completed a [project](https://github.com/calebclayreagor/nyc-taxi-eff
 
 Thanks to a [FOIA request]((http://www.andresmh.com/nyctaxitrips/)) by Chris Wong, the NYC taxi and limousine commission released trip and fare data from January through December 2013 containing medallion numbers, pickup and dropoff datetimes/locations, passenger counts, and payment breakdowns. For my analysis, I focused on the data from the first full week of June, Monday (6/3) to Sunday (6/9). After merging trip and fare data and selecting the entries for these dates, I used the following filters to keep high-quality rides:
 
-```
+```python {.nowrap}
 trip = (trip
         .loc[(trip.passenger_count > 0) & (trip.passenger_count < 10)]                   # 0 < passengers < 10
         .loc[trip.trip_time > dt]                                                        # time > 1 min
