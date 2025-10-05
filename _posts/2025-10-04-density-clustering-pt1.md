@@ -5,6 +5,17 @@ date: 2025-10-04 00:00:00 -0000
 categories: geospatial-analysis density-clustering
 ---
 
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 # Ridesharing Is Caring — Geospatial Density-Based Clustering (Part 1)
 
 October 4th, 2025
@@ -28,7 +39,3 @@ Wikimedia Commons, CC BY-SA 3.0
 </div>
 
 (Next, talk about why density-based clustering is good for urban dynamics)
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body)"></script>
