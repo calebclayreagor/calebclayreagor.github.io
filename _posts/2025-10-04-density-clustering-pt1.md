@@ -101,6 +101,6 @@ Another important detail of [my implementation](https://github.com/calebclayreag
 
 <div align="center" markdown="1">
 
-![Time scaling](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/figures/scaling.svg)
+![Time scaling](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/ddd58da5294e289965c0ef4da64ecd578ee03e50/figures/scaling.svg)
 
 </div>
