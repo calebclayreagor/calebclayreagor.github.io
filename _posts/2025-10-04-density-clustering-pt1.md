@@ -98,3 +98,9 @@ Iteration 4 (min_cluster_size = 2): % clustered = 84.11
 ```
 
 Another important detail of [my implementation](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/01_clustering.ipynb) is how I scaled time relative to distances. The value of minutes-per-mile acts as a knob that controls the tradeoff between spatial and temporal coherence. To select the best value, I performed a parameter sweep over values from 10 to 60 minutes/mile for one HDBSCAN iteration. These results show that smaller values ($\leq$ 10 min/mile) favor tighter temporal clusters, while larger values ($\geq$ 60 min/mile) favor tighter spatial clusters:
+
+<div align="center" markdown="1">
+
+![Time scaling](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/figures/scaling.svg)
+
+</div>
