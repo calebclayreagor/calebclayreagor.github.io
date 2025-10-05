@@ -17,7 +17,7 @@ This is Part 1 of two blog posts that I'm writing to highlight my recent project
 
 ## What is density-based clustering?
 
-Density-based clustering is a nonparametric method that can detect continuous regions with similar densities of observations across a dataset. Many popular implementations such as DBSCAN (<ins>D</ins>ensity-<ins>B</ins>ased <ins>S</ins>patial <ins>C</ins>lustering of <ins>A</ins>pplications with <ins>N</ins>oise) also allow for outliers to remain unclustered as noise. These algorithms generally rely on two key parameters: the neighborhood radius \(\epsilon\), and the density required to define a "core" observation. In the example below, the darker regions contain core observations while the lighter regions define the border between clusters and noise.
+Density-based clustering is a nonparametric method that can detect continuous regions with similar densities of observations across a dataset. Many popular implementations such as DBSCAN (<ins>D</ins>ensity-<ins>B</ins>ased <ins>S</ins>patial <ins>C</ins>lustering of <ins>A</ins>pplications with <ins>N</ins>oise) also allow for outliers to remain unclustered as noise. These algorithms generally rely on two key parameters: the neighborhood radius $\epsilon$, and the density required to define a "core" observation. In the example below, the darker regions contain core observations while the lighter regions define the border between clusters and noise.
 
 <div align="center" markdown="1">
 
@@ -29,5 +29,6 @@ Wikimedia Commons, CC BY-SA 3.0
 
 (Next, talk about why density-based clustering is good for urban dynamics)
 
-<script>window.MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']]}};</script>
-<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body)"></script>
