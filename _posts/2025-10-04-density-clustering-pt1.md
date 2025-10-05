@@ -37,7 +37,7 @@ This is Part 1 of two blog posts that I'm writing to highlight my recent project
 
 ## What is density-based clustering?
 
-Density-based clustering is a nonparametric method that can detect continuous regions with similar densities of observations across a dataset. Many popular implementations such as [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN) (<ins>D</ins>ensity-<ins>B</ins>ased <ins>S</ins>patial <ins>C</ins>lustering of <ins>A</ins>pplications with <ins>N</ins>oise) allow outliers to remain unclustered. These algorithms generally rely on two key parameters: the neighborhood radius $\epsilon$, and the minimum number of neighbors required for "core" observations. In the example below, darker regions show the core observations while lighter regions depict the border between the clusters and noise.
+Density-based clustering is a nonparametric method that can detect continuous regions with similar densities of observations across a dataset. Many popular implementations such as [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN) (<ins>D</ins>ensity-<ins>B</ins>ased <ins>S</ins>patial <ins>C</ins>lustering of <ins>A</ins>pplications with <ins>N</ins>oise) allow outliers to remain unclustered. These algorithms generally rely on two key parameters: the neighborhood radius $\epsilon$, and the minimum number of neighbors required for "core" observations. In the example below, darker regions show core observations while lighter regions depict the border between clusters and noise.
 
 <div align="center" markdown="1">
 
@@ -47,7 +47,7 @@ Wikimedia Commons, CC BY-SA 3.0
 
 </div>
 
-These methods are well suited for exploratory analysis of transportation and geodemographic datasets because humans are heterogeneously organized within and between populations. For example, natural features such as rivers and mountains can separate cities and their populations, whereas transit hubs like train stations (see below) can promote local clustering of passengers. Neither situation is well-approximated by a parametric prior like a Gaussian distribution, and we typically don't know the number of clusters *a priori*. However, density-based clustering relies on contrasting local densities to identify clusters regardless of their shapes or sizes.
+These methods are well suited for exploratory analysis of transportation and geodemographic data because humans are heterogeneously organized within and between populations. For example, geographic features such as rivers and mountains can separate cities and their populations, whereas transit hubs like train stations (see below) can promote local clustering of passengers. Neither situation is well-approximated by a parametric prior like a Gaussian distribution, and we typically don't know the number of clusters *a priori*. However, density-based clustering relies on contrasting local densities to identify clusters regardless of their shapes or sizes.
 
 <div align="center" markdown="1">
 
@@ -65,7 +65,7 @@ I recently completed a [project](https://github.com/calebclayreagor/nyc-taxi-eff
 
 ### Downloading and cleaning the data
 
-Thanks to a [FOIA request]((http://www.andresmh.com/nyctaxitrips/)) by Chris Wong, the NYC taxi and limousine commission released trip and fare data from January through December 2013 containing medallion numbers, pickup and dropoff datetimes/locations, passenger counts, and payment breakdowns. For my analysis, I focused on the data from the first full week of June, Monday (6/3) to Sunday (6/9). After merging trip and fare data and selecting these dates, I used the following filters to keep only high-quality rides:
+Thanks to a [FOIA request]((http://www.andresmh.com/nyctaxitrips/)) by Chris Wong, the NYC taxi and limousine commission released trip and fare data from January through December 2013 containing medallion numbers, pickup and dropoff datetimes/locations, passenger counts, and payment breakdowns. For my analysis, I focused on the data from the first full week of June, Monday (6/3) to Sunday (6/9). After merging trip and fare data and selecting rides on these dates, I used the following filters to keep only high-quality trips:
 
 ```python
 trip = (trip
@@ -83,18 +83,18 @@ trip = (trip
         .loc[~trip.index_pickup.isna() | ~trip.index_dropoff.isna()])                    # pickup or dropoff in NYC
 ```
 
-Following deduplication, my [data cleaning pipeline](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/00_cleaning.ipynb) selected just over 1.5 million trips for downstream analysis.
+After deduplication, my [data cleaning pipeline](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/00_cleaning.ipynb) selected just over 1.5 million trips for downstream analysis.
 
 ### An iterative density-based clustering approach
 
-Because density-based clustering algorithms allow for noise, these methods tend to leave many observations unclustered. To aggregate as many trips into clusters as possible, I implemented an iterative hierarchical DBSCAN (<ins>H</ins>DBSCAN) approach that sequentially clustered remaining observations from the previous step while relaxing the minimum required cluster size from 6 to 2 riders (more on these values later). My input features to HDBSCAN consisted of pickup locations $x_0,y_0$ and times $t_0$ and dropoff locations $x_1,y_1$, returning cluster labels $k$ for each trip and passenger. Here's what my clustering looked like after each iteration:
+Because density-based clustering allows for noise, these algorithms tend to leave many observations unclustered. To aggregate as many trips into clusters as possible, I implemented an iterative [hierarchical DBSCAN](https://github.com/scikit-learn-contrib/hdbscan) (<ins>H</ins>DBSCAN) approach that sequentially clustered remaining observations from the previous step while relaxing the minimum required cluster size from 6 to 2 riders (more on these values later). My input features to HDBSCAN consisted of pickup locations $x_0,y_0$ and times $t_0$ and dropoff locations $x_1,y_1$ and returned cluster labels $k$ for each trip and passenger. Here's what the clustering looked like after each iteration:
 
 ```
-Iteration 0 (min_cluster_size = 6): frac_clus = 10.89%
-Iteration 1 (min_cluster_size = 5): frac_clus = 27.17%
-Iteration 2 (min_cluster_size = 4): frac_clus = 44.57%
-Iteration 3 (min_cluster_size = 3): frac_clus = 62.15%
-Iteration 4 (min_cluster_size = 2): frac_clus = 84.11%
+Iteration 0 (min_cluster_size = 6): clustered = 10.89%
+Iteration 1 (min_cluster_size = 5): clustered = 27.17%
+Iteration 2 (min_cluster_size = 4): clustered = 44.57%
+Iteration 3 (min_cluster_size = 3): clustered = 62.15%
+Iteration 4 (min_cluster_size = 2): clustered = 84.11%
 ```
 
-Another important detail of my implementation is how I calibrated the scaling between distances and times. The selected value for minutes-per-mile acts as a spatiotemporal knob controlling the tradeoffs between spatial and temporal coherence. To select the best value, I performed a parameter sweep over values from 10 to 60 minutes/mile while performing a single HDBSCAN iteration. The following plot shows how smaller values ($\leq$ 10 min/mi) favor tighter temporal clusters, while larger values ($\geq$ 60 min/mi) favor tighter spatial clusters:
+Another important detail of my implementation is how I scaled times relative to distances. The value of minutes-per-mile acts as a knob controlling the tradeoff between spatial and temporal coherence. To select the best value, I performed a parameter sweep over values from 10 to 60 minutes/mile for a single HDBSCAN iteration. The results show how smaller values ($\leq$ 10 min/mile) favor tighter temporal clusters, while larger values ($\geq$ 60 min/mile) favor tighter spatial clusters:
