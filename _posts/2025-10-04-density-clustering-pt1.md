@@ -65,7 +65,7 @@ I recently completed a [project](https://github.com/calebclayreagor/nyc-taxi-eff
 
 ### Downloading and cleaning the data
 
-Thanks to a [FOIA request]((http://www.andresmh.com/nyctaxitrips/)) by Chris Wong, the NYC taxi and limousine commission released trip and fare data from January through December 2013 containing medallion numbers, pickup and dropoff datetimes/locations, passenger counts, and payment breakdowns. For my analysis, I focused on the data from the first full week of June, Monday (6/3) to Sunday (6/9). After merging trip and fare data and selecting rides on these dates, I used the following filters to keep only high-quality trips:
+Thanks to a [FOIA request](http://www.andresmh.com/nyctaxitrips/) by Chris Wong, the NYC taxi and limousine commission released trip and fare data from January through December 2013 containing medallion numbers, pickup and dropoff datetimes/locations, passenger counts, and payment breakdowns. For my analysis, I focused on the data from the first full week of June, Monday (6/3) to Sunday (6/9). After merging trip and fare data and selecting rides on these dates, I used the following filters to keep only high-quality trips:
 
 ```python
 trip = (trip
@@ -87,7 +87,7 @@ After deduplication, my [data cleaning pipeline](https://github.com/calebclayrea
 
 ### Iterative density-based clustering approach
 
-Because density-based clustering allows for noise, these algorithms tend to leave many observations unclustered. To aggregate as many trips into clusters as possible, I implemented an iterative [hierarchical DBSCAN](https://github.com/scikit-learn-contrib/hdbscan) (<ins>H</ins>DBSCAN) approach that sequentially clusters remaining observations from the previous step while relaxing the minimum required cluster size from 6 to 2 riders (more on these values later). My input features consisted of pickup locations $x_0,y_0$ and times $t_0$ and dropoff locations $x_1,y_1$ and returned cluster labels $k$ for each trip and passenger. Here's what the results looked like after each iteration:
+Because density-based clustering allows for noise, these algorithms tend to leave many observations unclustered. To aggregate as many trips into clusters as possible, I implemented an iterative [hierarchical DBSCAN](https://github.com/scikit-learn-contrib/hdbscan) (<ins>H</ins>DBSCAN) approach that sequentially clustered remaining observations from the previous step while relaxing the minimum cluster size from 6 to 2 riders (more on these values later). My input features consisted of pickup locations $x_0,y_0$ and times $t_0$ and dropoff locations $x_1,y_1$ and returned cluster labels $k$ for each trip/passenger. Here's what my clustering results looked like after each iteration:
 
 ```
 Iteration 0 (min_cluster_size = 6): % clustered = 10.89
@@ -97,4 +97,4 @@ Iteration 3 (min_cluster_size = 3): % clustered = 62.15
 Iteration 4 (min_cluster_size = 2): % clustered = 84.11
 ```
 
-Another important detail of [my implementation](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/01_clustering.ipynb) is how I scaled time relative to distances. The value of minutes-per-mile acts as a knob that controls the tradeoff between spatial and temporal coherence. To select the best value, I performed a parameter sweep over values from 10 to 60 minutes/mile for one HDBSCAN iteration. The results show that smaller values ($\leq$ 10 min/mile) favor tighter temporal clusters, while larger values ($\geq$ 60 min/mile) favor tighter spatial clusters:
+Another important detail of [my implementation](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/01_clustering.ipynb) is how I scaled time relative to distances. The value of minutes-per-mile acts as a knob that controls the tradeoff between spatial and temporal coherence. To select the best value, I performed a parameter sweep over values from 10 to 60 minutes/mile for one HDBSCAN iteration. These results show that smaller values ($\leq$ 10 min/mile) favor tighter temporal clusters, while larger values ($\geq$ 60 min/mile) favor tighter spatial clusters:
