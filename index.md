@@ -1,5 +1,5 @@
 ---
-title: Caleb C. Reagor, Ph.D.
+title: Home
 layout: default
 ---
 
