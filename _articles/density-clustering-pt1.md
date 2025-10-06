@@ -2,11 +2,10 @@
 title: "Ridesharing Is Caring — Geospatial Density-Based Clustering (Part 1)"
 author: Caleb C. Reagor
 description: "Exploring ridesharing efficiency of NYC taxi trips using density-based clustering"
+image: https://calebclayreagor.github.io/assets/images/articles/density-clustering-pt1/wikimedia/Nytaxis.png
 layout: default
 date: 2025-10-06
 ---
-
-<meta name="image" property="og:image" content="https://calebclayreagor.github.io/assets/images/articles/density-clustering-pt1/wikimedia/Nytaxis.png">
 
 <script>
 window.MathJax = {
