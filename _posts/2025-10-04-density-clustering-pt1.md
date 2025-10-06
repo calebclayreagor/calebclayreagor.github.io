@@ -158,7 +158,7 @@ Across both Manhattan and the outer boroughs, packing efficiency drops every day
 
 <div align="center" markdown="1">
 
-![Efficiency trends](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_trends.svg)
+![Efficiency trends](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_trends.svg){: width="100%" }
 
 </div>
 
