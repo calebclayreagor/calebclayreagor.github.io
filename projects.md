@@ -22,13 +22,13 @@ layout: default
 
 - DELAY encodes autoregressive relationships between features (genes) as stacks of 2D images
 
-> ![DELAY](images/DELAY.png)
+> ![DELAY](assets/images/projects/DELAY.png)
 
 > Reagor, Velez-Angel & Hudspeth, 2023, [*PNAS Nexus*](https://doi.org/10.1093/pnasnexus/pgad113)
 
 - DELAY uses a CNN to classify features (genes) as interacting (A -> B) or non-interacting (A -x-> B) 
 
-> <img src="images/DELAY-fig1b.jpeg" alt="DELAY CNN" width="800">
+> <img src="assets/images/projects/DELAY-fig1b.jpeg" alt="DELAY CNN" width="800">
 
 ---
 
@@ -36,6 +36,6 @@ layout: default
 
 - I used graph-structure analysis to discover influential nodes (genes) in the reconstructed networks
 
-> <img src="images/grn-hubs-bubble-edited.svg" alt="Network hubs" width="600">
+> <img src="assets/images/projects/grn-hubs-bubble-edited.svg" alt="Network hubs" width="600">
 
 > Reagor, Bravo & Hudspeth, 2025, _PeerJ_

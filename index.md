@@ -3,6 +3,12 @@ title: Home
 layout: default
 ---
 
+<div align="center" markdown="1">
+
+![Caleb Reagor](assets/images/index/CalebReagor.jpg)
+
+</div>
+
 # Professional Summary
 Ph.D. data and machine learning scientist with **_six years of experience developing and training deep neural networks for spatial, temporal, vision, and network-structured data._** Skilled in supervised and unsupervised methods including deep learning, classical ML, and stochastic modeling.
 
