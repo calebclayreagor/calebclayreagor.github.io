@@ -152,6 +152,8 @@ where $E/\alpha$ is packing efficiency (unitless), $M$ is the total number of ta
 
 </div>
 
+---
+
 ### Efficiency trends by time and location
 
 Across both Manhattan and the outer boroughs, packing efficiency drops every day between ~6 AM-Noon. During weekdays, the outer boroughs have efficiency peaks before/after the trough (~Midnight-6 AM & ~Noon-6 PM), and in Manhattan both weekday/weekend packing efficiency have broad peaks elsewhere (~Noon-6 AM):
@@ -174,7 +176,7 @@ This suggests that passengers aren't sharing rides to their jobs in the morning 
 
 <div align="center" markdown="1">
 
-![Manhattan efficiency map](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_manhattan_weekday_AM.svg){: width="50%" }
+![Manhattan efficiency map](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_manhattan_weekday_AM.svg){: width="66%" }
 
 </div>
 
@@ -190,7 +192,7 @@ This means that the evening rush hour represents the best opportunity to optimiz
 
 <div align="center" markdown="1">
 
-![Outer boroughs efficiency map](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_bk_qns_weekday_PM.svg)
+![Outer boroughs efficiency map](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_bk_qns_weekday_PM.svg){: width="80%" }
 
 </div>
 
