@@ -123,7 +123,7 @@ Identifying coherent clusters of taxi trips is already interesting and raises im
 
 ### Demand-responsive transport and packing efficiency
 
-One common approach to increasing ridesharing is [demand-responsive transport](https://en.wikipedia.org/wiki/Demand-responsive_transport), where vans or small busses operate on flexible routes according to demand and passengers' pickup/dropoff locations. I used this microtransit model as a benchmark for comparison with ridesharing in my taxi-trip clusters. I defined the efficiency $E$ of a rider/vehicle configuration for a given cluster $k$ as follows:
+One common approach to increasing ridesharing is [demand-responsive transport](https://en.wikipedia.org/wiki/Demand-responsive_transport), where vans or small busses operate on flexible routes according to demand and passengers' pickup/dropoff locations. I used this microtransit model as a [benchmark for comparison](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/02_efficiency.ipynb) with ridesharing in my taxi-trip clusters. I defined the efficiency $E$ of a rider/vehicle configuration for a given cluster $k$ as follows:
 
 <div align="center" markdown="1" style="font-size:1.25rem; line-height:1.5;">
 
@@ -152,4 +152,49 @@ where $E/\alpha$ is packing efficiency (unitless), $M$ is the total number of ta
 
 </div>
 
-### Efficiency trends across days, times, and locations
+### Efficiency trends by time and location
+
+Across both Manhattan and the outer boroughs, packing efficiency drops every day between ~6 AM-Noon. During weekdays, the outer boroughs have efficiency peaks before/after the trough (~Midnight-6 AM & ~Noon-6 PM), and in Manhattan both weekday/weekend packing efficiency have broad peaks elsewhere (~Noon-6 AM):
+
+<div align="center" markdown="1">
+
+![Efficiency trends](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_trends.svg)
+
+</div>
+
+Focusing on Manhattan, we can see that weekday demand for taxis increases ~6 hours before efficiency (between ~6 AM-Noon):
+
+<div align="center" markdown="1">
+
+![Manhattan efficiency and demand](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_vs_demand_manhattan.svg)
+
+</div>
+
+This suggests that passengers aren't sharing rides to their jobs in the morning but are instead sharing rides with their co-workers after leaving the office in the afternoon, constituting a significant opportunity to optimize efficiency (and profits!) during the morning rush hour. The AM efficiency dropoff is distributed unevenly across Manhattan's neighborhoods, with Upper Manhattan and the Lower East Side showing comparatively better packing efficiency and the Upper East Side showing the worst efficiency:
+
+<div align="center" markdown="1">
+
+![Manhattan efficiency map](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_manhattan_weekday_AM.svg)
+
+</div>
+
+Returning our focus to the outer boroughs, we can see that demand peaks while efficiency drops during the period between ~6 PM-Midnight:
+
+<div align="center" markdown="1">
+
+![Outer boroughs efficiency and demand](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_vs_demand_outer_boroughs.svg)
+
+</div>
+
+This means that the evening rush hour represents the best opportunity to optimize efficiency/profits in these boroughs. Interestingly, the PM efficiency dropoff is also distributed unevenly across Brooklyn/Queens neighborhoods, with the airports (LGA/JFK) showing the worst packing efficiency and Bedford-Stuyvesant, Bushwick, and Long Island City showing the best efficiency:
+
+<div align="center" markdown="1">
+
+![Outer boroughs efficiency map](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_bk_qns_weekday_PM.svg)
+
+</div>
+
+---
+
+## Wrapping up
+
