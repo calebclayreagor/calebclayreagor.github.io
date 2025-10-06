@@ -51,7 +51,7 @@ Wikimedia Commons, CC BY-SA 3.0
 
 </div>
 
-Because humans are heterogeneously organized across regions, these methods are well suited for exploratory analysis of transportation and geodemographic data. For example, geographic features such as rivers and mountains can separate cities and populations, whereas transit hubs like train stations (see below) can promote local clustering of passengers. Neither situation is well-approximated by a parametric prior such as a Gaussian, and we typically don't know the number of clusters *a priori*. Instead, density-based clustering can rely on the contrast between local densities to identify clusters, regardless of their shapes or sizes.
+Because humans are heterogeneously organized across regions, these methods are well suited for exploratory analysis of transportation and geodemographic data. For example, geographic features such as rivers and mountains can separate cities and populations, whereas transit hubs like train stations (see below) can promote local clustering of passengers. Neither situation is well-approximated by a parametric prior such as a Gaussian, and we typically don't know the number of clusters *a priori*. Instead, density-based clustering relies on the contrast between local densities to identify clusters, regardless of their shapes or sizes.
 
 <div align="center" markdown="1">
 
@@ -65,11 +65,11 @@ HDBSCAN Read the Docs, BSD 3-Clause
 
 ## Density-based clustering of NYC taxi trips
 
-I recently completed a [project](https://github.com/calebclayreagor/nyc-taxi-efficiency) exploring the ridesharing efficiency of NYC taxi trips using an iterative density-based clustering algorithm to aggregate trips. The rest of this post will outline the main ingredients to successfully explore geospatial datasets using density-based methods, highlighting any interesting (and surprising!) results along the way.
+I recently completed a [project](https://github.com/calebclayreagor/nyc-taxi-efficiency) exploring the ridesharing efficiency of NYC taxi trips using an iterative density-based clustering algorithm to aggregate trips. The rest of this post will outline the main ingredients to successfully explore geospatial datasets using density-based methods and highlight any interesting (and surprising!) results along the way.
 
 ### Downloading and cleaning the data
 
-Thanks to a [FOIA request](http://www.andresmh.com/nyctaxitrips/) by Chris Wong, the NYC taxi and limousine commission released trip/fare data from January through December 2013, containing medallion numbers, pickup and dropoff datetimes/locations, passenger counts, and payment breakdowns. For my analysis, I focused on data from the first full week of June, Monday (6/3) to Sunday (6/9). After merging trip and fare data and selecting the rides on these dates, I used the following filters to keep high-quality trips only:
+Thanks to a [FOIA request](http://www.andresmh.com/nyctaxitrips/) by Chris Wong, the NYC taxi and limousine commission released trip and fare data from January through December 2013, containing medallion numbers, pickup and dropoff datetimes/locations, passenger counts, and payment breakdowns. For my analysis, I focused on data from the first full week of June: Monday (6/3) to Sunday (6/9). After merging trip/fare data and selecting rides on these dates, I used the following filters to keep high-quality trips only:
 
 ```python
 trip = (trip
@@ -91,7 +91,7 @@ After deduplication, my [data cleaning pipeline](https://github.com/calebclayrea
 
 ### Iterative density-based clustering
 
-Because density-based clustering allows for outliers, these algorithms tend to leave many observations unclustered. To aggregate as many trips into clusters as possible, I implemented an iterative [HDBSCAN](https://github.com/scikit-learn-contrib/hdbscan) (<ins>H</ins>ierarchical DBSCAN) approach that sequentially clustered any remaining observations from the previous step while relaxing the minimum cluster size, from 6 to 2 riders (more on these values later). My input features consisted of pickup locations $x_0,y_0$ and times $t_0$ and dropoff locations $x_1,y_1$, and the outputs were cluster labels $k$ for each trip/passenger. Here's what my clustering results looked like after each iteration:
+Because density-based clustering allows for outliers, these algorithms tend to leave many observations unclustered. To aggregate as many trips into clusters as possible, I implemented an iterative [HDBSCAN](https://github.com/scikit-learn-contrib/hdbscan) (<ins>H</ins>ierarchical DBSCAN) approach that sequentially clustered any remaining observations from the previous step while relaxing the minimum cluster size from 6 to 2 riders (more on these values later). My input features consisted of pickup locations $x_0,y_0$ and times $t_0$ and dropoff locations $x_1,y_1$, and the outputs were cluster labels $k$ for each trip/passenger. Here's what my clustering results looked like after each iteration:
 
 ```
 Iteration 0 (min_cluster_size = 6): % clustered = 10.89
@@ -101,7 +101,7 @@ Iteration 3 (min_cluster_size = 3): % clustered = 62.15
 Iteration 4 (min_cluster_size = 2): % clustered = 84.11
 ```
 
-Another important parameter for [my implementation](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/01_clustering.ipynb) was the relative scaling of time *vs.* distance, which controlled the tradeoff between spatial and temporal coherence. To select the best value, I performed a parameter sweep from 10 to 60 minutes/mile for one HDBSCAN iteration only. The results showed that smaller values ($\leq$ 10 min/mile) favored tighter temporal clusters, while larger values ($\geq$ 60 min/mile) favored tighter spatial clusters:
+Another important parameter for [my implementation](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/01_clustering.ipynb) was the relative scaling of time *vs.* distance, which controls the tradeoff between clusters' spatial and temporal coherence. To select the best value, I performed a parameter sweep from 10 to 60 minutes/mile for one HDBSCAN iteration only. The results showed that smaller values ($\leq$ 10 min/mile) favored tighter temporal clusters, while larger values ($\geq$ 60 min/mile) favored tighter spatial clusters:
 
 <div align="center" markdown="1">
 
@@ -111,7 +111,7 @@ Another important parameter for [my implementation](https://github.com/calebclay
 
 ### Quality of the identified clusters
 
-Based on the sweep, I performed my final clustering with a spatiotemporal scaling of 25 minutes/mile and identified clusters with ~5 passengers and pickup/dropoff locations ~0.2 miles and ~5 minutes apart:
+Based on the parameter sweep, I used a spatiotemporal scaling of 25 minutes/mile to identify clusters with ~5 passengers and pickup/dropoff locations ~0.2 miles and ~5 minutes apart:
 
 <div align="center" markdown="1">
 
