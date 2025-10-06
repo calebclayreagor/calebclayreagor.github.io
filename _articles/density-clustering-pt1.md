@@ -29,7 +29,7 @@ October 6th, 2025
 
 <div align="center" markdown="1">
 
-![NYC taxis](\assets\images\articles\density-clustering-pt1\wikimedia\Nytaxis.png)
+![NYC taxis](\assets\images\articles\density-clustering-pt1\wikimedia\Nytaxis.png){: width="100%" }
 
 Wikimedia Commons, CC BY-SA 4.0
 
@@ -45,7 +45,7 @@ Density-based clustering is a nonparametric method that can detect continuous re
 
 <div align="center" markdown="1">
 
-![DBSCAN example](\images\posts\2025-10-04-density-clustering-pt1\DBSCAN-density-data.svg){: width="50%" }
+![DBSCAN example](\assets\images\articles\density-clustering-pt1\wikimedia\DBSCAN-density-data.svg){: width="50%" }
 
 Wikimedia Commons, CC BY-SA 3.0
 
@@ -55,7 +55,7 @@ These methods are well suited for exploratory analysis of transportation and geo
 
 <div align="center" markdown="1">
 
-![DBSCAN train station](\images\posts\2025-10-04-density-clustering-pt1\epsilon_parameter_hdbscan_eps.webp){: width="50%" }
+![HDBSCAN train station](\assets\images\articles\density-clustering-pt1\epsilon_parameter_hdbscan_eps.webp){: width="50%" }
 
 HDBSCAN Read the Docs, BSD 3-Clause
 
