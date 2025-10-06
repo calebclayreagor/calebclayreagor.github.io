@@ -28,13 +28,7 @@ window.MathJax = {
 
 October 6th, 2025
 
-<div align="center" markdown="1">
-
 ![NYC taxis](\assets\images\articles\density-clustering-pt1\wikimedia\Nytaxis.png){: width="100%" }
-
-Wikimedia Commons, CC BY-SA 4.0
-
-</div>
 
 This is Part 1 of two blog posts that I'm writing to highlight my recent projects using density-based clustering to explore geospatial datasets and urban dynamics. In this post, I will define and analyze taxi ridesharing efficiency using a public dataset of NYC yellow cab rides<!--more-->, and in Part 2 I'll adapt this approach to analyze urban density patterns across towns and cities in the US and abroad.
 
@@ -48,8 +42,6 @@ Density-based clustering is a nonparametric method that can detect continuous re
 
 ![DBSCAN example](\assets\images\articles\density-clustering-pt1\wikimedia\DBSCAN-density-data.svg){: width="50%" }
 
-Wikimedia Commons, CC BY-SA 3.0
-
 </div>
 
 Because humans are heterogeneously organized across regions, these methods are well suited for exploratory analysis of transportation and geodemographic data. For example, geographic features such as rivers and mountains can separate cities and populations, whereas transit hubs like train stations (see below) can promote local clustering of passengers. Neither situation is well-approximated by a parametric prior such as a Gaussian, and we typically don't know the number of clusters *a priori*. Instead, density-based clustering relies on the contrast between local densities to identify clusters, regardless of their shapes or sizes.
@@ -57,8 +49,6 @@ Because humans are heterogeneously organized across regions, these methods are w
 <div align="center" markdown="1">
 
 ![HDBSCAN train station](\assets\images\articles\density-clustering-pt1\epsilon_parameter_hdbscan_eps.webp){: width="50%" }
-
-HDBSCAN Read the Docs, BSD 3-Clause
 
 </div>
 
@@ -214,3 +204,11 @@ The evening efficiency dropoff is also distributed unevenly across Brooklyn/Quee
 To recap, a successful exploration of geospatial datasets using density-based methods requires data- or domain-specific strategies for 1) iterative clustering and 2) evaluation metrics. When evaluating taxi-trip clusters against a microtransit benchmark, I implemented an approach that sequentially relaxed the minimum cluster size from the maximum van capacity to two.
 
 In the next post, I'll explore a dynamic approach to iterative density-based clustering using information theory and apply it to a geodemographic dataset of population density from cities and towns in the US and abroad. Happy clustering!
+
+---
+
+### Image credits
+
+- NYC taxis — Wikimedia Commons, CC BY-SA 4.0
+- DBSCAN data — Wikimedia Commons, CC BY-SA 3.0
+- Train station — HDBSCAN Read the Docs, BSD 3-Clause
