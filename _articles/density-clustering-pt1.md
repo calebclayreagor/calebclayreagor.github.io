@@ -35,7 +35,7 @@ Wikimedia Commons, CC BY-SA 4.0
 
 </div>
 
-This is Part 1 of two blog posts that I'm writing to highlight my recent projects using density-based clustering to explore geospatial datasets and urban dynamics. In this post, I define and analyze taxi ridesharing efficiency using a public dataset of NYC yellow cab rides, and in Part 2 I adapt this approach to analyze urban density patterns across towns and cities in the US and abroad.
+This is Part 1 of two blog posts I'm writing to highlight my recent projects using density-based clustering to explore geospatial datasets and urban dynamics. In this post, I will define and analyze taxi ridesharing efficiency using a public dataset of NYC yellow cab rides, and in Part 2 I'll adapt this approach to analyze urban density patterns across towns and cities in the US and abroad.
 
 ---
 
@@ -51,7 +51,7 @@ Wikimedia Commons, CC BY-SA 3.0
 
 </div>
 
-These methods are well suited for exploratory analysis of transportation and geodemographic data because humans are often heterogeneously organized across regions. For example, geographic features such as rivers and mountains can separate cities and populations, whereas transit hubs like train stations (see below) can promote local clustering of passengers. Neither situation is well-approximated by a parametric prior such as a Gaussian, and we typically don't know the number of clusters *a priori*. However, density-based clustering can instead rely on the contrast between local densities to identify clusters, regardless of their shapes or sizes.
+Because humans are heterogeneously organized across regions, these methods are well suited for exploratory analysis of transportation and geodemographic data. For example, geographic features such as rivers and mountains can separate cities and populations, whereas transit hubs like train stations (see below) can promote local clustering of passengers. Neither situation is well-approximated by a parametric prior such as a Gaussian, and we typically don't know the number of clusters *a priori*. Instead, density-based clustering can rely on the contrast between local densities to identify clusters, regardless of their shapes or sizes.
 
 <div align="center" markdown="1">
 
