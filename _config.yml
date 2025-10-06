@@ -6,10 +6,10 @@ titles_from_headings:
   enabled: false
 description: >
   <p>
-    <a href="index.html" class="btn">Home</a>
-    <a href="tech-stack.html" class="btn">Tech Stack</a>
-    <a href="projects.html" class="btn">Projects</a>
-    <a href="blog.html" class="btn">Blog</a>
+    <a href="https://calebclayreagor.github.io/index.html" class="btn">Home</a>
+    <a href="https://calebclayreagor.github.io/tech-stack.html" class="btn">Tech Stack</a>
+    <a href="https://calebclayreagor.github.io/projects.html" class="btn">Projects</a>
+    <a href="https://calebclayreagor.github.io/blog.html" class="btn">Blog</a>
     <a href="https://github.com/calebclayreagor" class="btn">GitHub</a>
     <a href="https://www.linkedin.com/in/caleb-c-reagor-phd-24a965169/" class="btn">LinkedIn</a>
     <a href="https://scholar.google.com/citations?user=OrpTjvIAAAAJ" class="btn">Papers</a>    
