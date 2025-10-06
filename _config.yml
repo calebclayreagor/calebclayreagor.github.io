@@ -18,3 +18,4 @@ collections:
   articles:
     output: true
     permalink: /blog/:name/
+excerpt_separator: "<!--more-->"
