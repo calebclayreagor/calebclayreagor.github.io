@@ -27,7 +27,13 @@ window.MathJax = {
 
 October 6th, 2025
 
-![NYC retro taxis](\images\posts\2025-10-04-density-clustering-pt1\Dodge_Polara_and_other_Yellow_Cabs_in_1973_NYC.jpg)
+<div align="center" markdown="1">
+
+![NYC taxis](\assets\images\articles\density-clustering-pt1\wikimedia\Nytaxis.png)
+
+Wikimedia Commons, CC BY-SA 4.0
+
+</div>
 
 This is Part 1 of two blog posts that I'm writing to highlight my recent projects using density-based clustering to explore geospatial datasets and urban dynamics. In this post, I define and analyze taxi ridesharing efficiency using a public dataset of NYC yellow cab rides, and in Part 2 I adapt this approach to analyze urban density patterns across towns and cities in the US and abroad.
 
