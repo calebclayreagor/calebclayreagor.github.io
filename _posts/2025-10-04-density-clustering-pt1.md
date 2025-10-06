@@ -139,17 +139,17 @@ $E = \alpha \cdot \frac{M_v}{M} \rightarrow \frac{E}{\alpha} = \frac{M_v}{M}$,
 
 </div>
 
-where $E/\alpha$ is the unitless packing efficiency, $M$ is the total number of taxi trips, and $M_v$ is the total number of van trips, which depends on the number of passengers in cluster $k$ and the total van capacity. Here, I assumed that microtransit vans had a typical seating capacity of six passengers, which is also the minimum cluster size that I used for the first iteration of my density-based clustering algorithm. The following table outlines the main advantages/disadvantages of using $E/\alpha$ as a measure of ridesharing efficiency:
+where $E/\alpha$ is unitless packing efficiency, $M$ is the total number of taxi trips, and $M_v$ is the total number of van trips, which depends on the number of passengers in cluster $k$ and the total van capacity. Here, I assumed that microtransit vans have a typical seating capacity of six passengers, which is also the minimum cluster size that I used for `Iteration 0` of my density-based clustering algorithm. The following table outlines advantages/disadvantages of using $E/\alpha$ to measure ridesharing efficiency:
 
 <div align="center" markdown="1">
 
 | Advantages | Disadvantages |
 |:--:|:--:|
 | $E/\alpha$ is a scale-free metric that can meaningfully compare both long and short trips | $E/\alpha$ depends on urban density and may not accurately compare dense and sparse regions |
-| $M_v$ is directly tunable to optimize van/bus capacity across different regions/times | $E/\alpha$ assesses aggregation and configuration and is agnostic of trip distance/duration |
+| $M_v$ is directly tunable to optimize van/bus capacity across different regions/times | $E/\alpha$ assesses aggregation/configuration and is agnostic of trip distance/duration |
 | No need to introduce systematic errors due to biased/imprecise direct cost estimates |  |
-| Does not require mid-trip pickups if calibrated to minimum cluster size |  |
+| Does not require mid-trip pickups if calibrated to the minimum cluster size |  |
 
 </div>
 
-### Efficiency trends across datetimes and locations
+### Efficiency trends across times and locations
