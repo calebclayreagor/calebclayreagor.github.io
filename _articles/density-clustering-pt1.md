@@ -35,7 +35,7 @@ Wikimedia Commons, CC BY-SA 4.0
 
 </div>
 
-This is Part 1 of two blog posts I'm writing to highlight my recent projects using density-based clustering to explore geospatial datasets and urban dynamics. In this post, I will define and analyze taxi ridesharing efficiency using a public dataset of NYC yellow cab rides, and in Part 2 I'll adapt this approach to analyze urban density patterns across towns and cities in the US and abroad.
+This is Part 1 of two blog posts that I'm writing to highlight my recent projects using density-based clustering to explore geospatial datasets and urban dynamics. In this post, I will define and analyze taxi ridesharing efficiency using a public dataset of NYC yellow cab rides, and in Part 2 I'll adapt this approach to analyze urban density patterns across towns and cities in the US and abroad.
 
 ---
 
@@ -91,7 +91,7 @@ After deduplication, my [data cleaning pipeline](https://github.com/calebclayrea
 
 ### Iterative density-based clustering
 
-Because density-based clustering allows for outliers, these algorithms tend to leave many observations unclustered. To aggregate as many trips into clusters as possible, I implemented an iterative [HDBSCAN](https://github.com/scikit-learn-contrib/hdbscan) (<ins>H</ins>ierarchical DBSCAN) approach that sequentially clustered any remaining observations from the previous step while relaxing the minimum cluster size from 6 to 2 riders (more on these values later). My input features consisted of pickup locations $x_0,y_0$ and times $t_0$ and dropoff locations $x_1,y_1$, and the outputs were cluster labels $k$ for each trip/passenger. Here's what my clustering results looked like after each iteration:
+Because density-based clustering allows for outliers, these algorithms tend to leave many observations unclustered. To aggregate as many trips into clusters as possible, I implemented an iterative [HDBSCAN](https://github.com/scikit-learn-contrib/hdbscan) (<ins>H</ins>ierarchical DBSCAN) approach that sequentially clusters any remaining observations from the previous step while relaxing the minimum cluster size from 6 to 2 riders (more on these values later). My input features consisted of pickup locations $x_0,y_0$ and times $t_0$ and dropoff locations $x_1,y_1$, and the outputs were cluster labels $k$ for each trip/passenger. Here's what my clustering results looked like after each iteration:
 
 ```
 Iteration 0 (min_cluster_size = 6): % clustered = 10.89
@@ -123,11 +123,11 @@ Based on the parameter sweep, I used a spatiotemporal scaling of 25 minutes/mile
 
 ## Defining and exploring ridesharing efficiency
 
-Identifying coherent clusters of taxi trips is already interesting and raises important questions for transit agencies and companies. For example, if passengers are departing/arriving at similar locations/times, is it possible to transport customers more efficiently by increasing their overall ridesharing? To answer this question, I implemented a complementary metric to assess ridesharing efficiency across clustered taxi trips.
+Identifying coherent clusters of trips is already interesting and raises important questions for transit agencies and companies. For example, if passengers are departing/arriving at similar locations/times, is it possible to transport customers more efficiently by increasing their overall ridesharing? To answer this question, I implemented a complementary metric to assess ridesharing efficiency across clustered taxi trips.
 
 ### Demand-responsive transport and packing efficiency
 
-One common approach to increase ridesharing is [demand-responsive transport](https://en.wikipedia.org/wiki/Demand-responsive_transport), where vans or small busses operate on flexible routes according to demand and passengers' pickup/dropoff locations. I used this microtransit model as a [benchmark for comparison](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/02_efficiency.ipynb) with actual ridesharing in my taxi-trip clusters. I defined the efficiency $E$ of an observed rider/vehicle configuration for a given cluster $k$ as follows:
+One common approach to increase ridesharing is [demand-responsive transport](https://en.wikipedia.org/wiki/Demand-responsive_transport), where vans or small busses operate on flexible routes according to overall demand and passengers' pickup/dropoff locations. I used this microtransit model as a [benchmark for comparison](https://github.com/calebclayreagor/nyc-taxi-efficiency/blob/main/notebooks/02_efficiency.ipynb) with actual ridesharing in my taxi-trip clusters. I defined the efficiency $E$ of an observed rider/vehicle configuration for a given cluster $k$ as follows:
 
 <div align="center" markdown="1" style="font-size:1.25rem; line-height:1.5;">
 
@@ -135,7 +135,7 @@ $E = \frac{c_v}{c} = \frac{\text{cost per capita microtransit}}{\text{cost per c
 
 </div>
 
-This equation is actually the inverse of most efficiency definitions, but I chose to use it because $E$ is bounded on the interval $(0,1]$, with $E=1$ indicating a taxi rider/vehicle configuration was as efficient as microtransit and $E<1$ indicating that the configuration was comparatively inefficient. If we assume that microtransit trips cost a scalar multiple $\alpha$ of the average taxi-trip cost per cluster, $E$ then becomes a measure of rider packing:
+This equation is actually the inverse of most efficiency definitions, but I chose to use it because $E$ is bounded on the interval $(0,1]$, with $E=1$ indicating a taxi rider/vehicle configuration was as efficient as microtransit, and $E<1$ indicating that the configuration was comparatively inefficient. If we assume that microtransit trips cost a scalar multiple $\alpha$ of the average taxi-trip cost per cluster, $E$ becomes a measure of rider packing:
 
 <div align="center" markdown="1" style="font-size:1.25rem; line-height:1.5;">
 
@@ -143,7 +143,7 @@ $E = \alpha \cdot \frac{M_v}{M} \rightarrow \frac{E}{\alpha} = \frac{M_v}{M}$,
 
 </div>
 
-where $E/\alpha$ is packing efficiency (unitless), $M$ is the total number of taxi trips, and $M_v$ is the total number of van trips, which depends on the number of passengers in cluster $k$ and the total van capacity. Here I assumed van seating capacity of six passengers, which is also the minimum cluster size that I used for `Iteration 0` of my density-based clustering approach.
+where $E/\alpha$ is packing efficiency (unitless), $M$ is the total number of taxi trips, and $M_v$ is the total number of van trips, which depends on the number of passengers in cluster $k$ and the total van capacity. Here I assumed a van seating capacity of six passengers, which is also the minimum cluster size that I used for `Iteration 0` of my density-based clustering approach.
 
 These are the key advantages/disadvantages of using $E/\alpha$ to measure ridesharing efficiency:
 
@@ -196,7 +196,9 @@ Across the outer boroughs, we can see that demand peaks while efficiency drops d
 
 </div>
 
-This means that the evening rush hour represents the best opportunity to optimize efficiency/profits in these boroughs. Interestingly, the PM efficiency dropoff is also distributed unevenly across Brooklyn/Queens neighborhoods, with the airports (LGA/JFK) showing the worst packing efficiency and Bedford-Stuyvesant, Bushwick, and Long Island City showing the best efficiency:
+This means that the evening rush hour represents the best opportunity to optimize efficiency/profits in these boroughs.
+
+The evening efficiency dropoff is also distributed unevenly across Brooklyn/Queens neighborhoods, with the airports (LGA/JFK) showing the worst packing efficiency and Bedford-Stuyvesant, Bushwick, and Long Island City showing the best efficiency:
 
 <div align="center" markdown="1">
 
@@ -208,3 +210,6 @@ This means that the evening rush hour represents the best opportunity to optimiz
 
 ## Wrapping up
 
+To recap, a successful exploration of geospatial datasets using density-based methods requires data- or domain-specific strategies for 1) iterative clustering and 2) evaluation metrics. When evaluating taxi-trip clusters against a microtransit benchmark, I implemented an approach that sequentially relaxed the minimum cluster size from the maximum van capacity to two.
+
+In the next post, I'll explore a dynamic approach to iterative density-based clustering using information theory and apply it to a geodemographic dataset of population density from cities and towns in the US and abroad. Happy clustering!
