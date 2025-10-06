@@ -38,4 +38,4 @@ layout: default
 
 > <img src="assets/images/projects/grn-hubs-bubble-edited.svg" alt="Network hubs" width="600">
 
-> Reagor, Bravo & Hudspeth, 2025, _PeerJ_
+> Reagor, Bravo & Hudspeth, 2025, [_PeerJ_](https://peerj.com/articles/19949/)
