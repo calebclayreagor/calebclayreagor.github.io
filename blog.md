@@ -8,7 +8,7 @@ layout: default
 {% for a in items %}
   <li class="blog-card">
     <h3><a href="{{ a.url | relative_url }}">{{ a.title }}</a></h3>
-    <div class="excerpt">{{ a.excerpt | strip }}&nbsp;&hellip;</div>
+    <div class="excerpt">{{ a.excerpt | strip }}<span>&nbsp;&hellip;</span></div>
   </li>
 {% endfor %}
 </ul>
