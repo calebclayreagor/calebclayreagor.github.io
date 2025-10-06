@@ -188,7 +188,7 @@ If we break down the morning efficiency dropoff by neighborhood, we can see that
 
 </div>
 
-Returning our focus to the outer boroughs, we can see that demand peaks while efficiency drops during the period between ~6 PM-Midnight:
+Across the outer boroughs, we can see that demand peaks while efficiency drops during the period between ~6 PM-Midnight:
 
 <div align="center" markdown="1">
 
