@@ -105,7 +105,7 @@ Another important parameter for [my implementation](https://github.com/calebclay
 
 <div align="center" markdown="1">
 
-![Time scaling](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/2485ed79b1b9f15f304f2b1af9f2572a3efdfede/figures/scaling.svg){: width="100%" }
+![Time scaling](/assets/images/articles/density-clustering-pt1/nyc-taxi-efficiency/scaling.svg){: width="100%" }
 
 </div>
 
@@ -115,7 +115,7 @@ Based on the sweep, I performed my final clustering with a spatiotemporal scalin
 
 <div align="center" markdown="1">
 
-![Cluster size](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/cluster_size.svg)![Location spread](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/9be412b09ddf24848c57f5a783562c9b434a4352/figures/cluster_rms_distance.svg)![Time spread](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/9be412b09ddf24848c57f5a783562c9b434a4352/figures/cluster_std_time.svg)
+![Cluster size](/assets/images/articles/density-clustering-pt1/nyc-taxi-efficiency/cluster_size.svg){: width="26%" }![Location spread](/assets/images/articles/density-clustering-pt1/nyc-taxi-efficiency/cluster_rms_distance.svg){: width="37%" }![Time spread](/assets/images/articles/density-clustering-pt1/nyc-taxi-efficiency/cluster_std_time.svg){: width="37%" }
 
 </div>
 
