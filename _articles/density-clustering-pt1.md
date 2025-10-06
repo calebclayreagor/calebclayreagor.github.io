@@ -164,7 +164,7 @@ Across both Manhattan and the outer boroughs, packing efficiency drops every day
 
 <div align="center" markdown="1">
 
-![Efficiency trends](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_trends.svg){: width="100%" }
+![Efficiency trends](/assets/images/articles/density-clustering-pt1/nyc-taxi-efficiency/efficiency_trends.svg){: width="100%" }
 
 </div>
 
@@ -172,7 +172,7 @@ Focusing on Manhattan, we can see that weekday demand for taxis increases ~6 hou
 
 <div align="center" markdown="1">
 
-![Manhattan efficiency and demand](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_vs_demand_manhattan.svg){: width="100%" }
+![Manhattan efficiency and demand](/assets/images/articles/density-clustering-pt1/nyc-taxi-efficiency/efficiency_vs_demand_manhattan.svg){: width="100%" }
 
 </div>
 
@@ -180,7 +180,7 @@ This suggests that passengers aren't sharing rides to their jobs in the morning 
 
 <div align="center" markdown="1">
 
-![Manhattan efficiency map](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_manhattan_weekday_AM.svg){: width="66%" }
+![Manhattan efficiency map](/assets/images/articles/density-clustering-pt1/nyc-taxi-efficiency/efficiency_manhattan_weekday_AM.svg){: width="66%" }
 
 </div>
 
@@ -188,7 +188,7 @@ Returning our focus to the outer boroughs, we can see that demand peaks while ef
 
 <div align="center" markdown="1">
 
-![Outer boroughs efficiency and demand](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_vs_demand_outer_boroughs.svg){: width="100%" }
+![Outer boroughs efficiency and demand](/assets/images/articles/density-clustering-pt1/nyc-taxi-efficiency/efficiency_vs_demand_outer_boroughs.svg){: width="100%" }
 
 </div>
 
@@ -196,7 +196,7 @@ This means that the evening rush hour represents the best opportunity to optimiz
 
 <div align="center" markdown="1">
 
-![Outer boroughs efficiency map](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_bk_qns_weekday_PM.svg){: width="80%" }
+![Outer boroughs efficiency map](/assets/images/articles/density-clustering-pt1/nyc-taxi-efficiency/efficiency_bk_qns_weekday_PM.svg){: width="80%" }
 
 </div>
 
