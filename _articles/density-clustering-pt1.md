@@ -2,6 +2,7 @@
 title: Ridesharing Is Caring — Geospatial Density-Based Clustering (Part 1)
 layout: default
 date: 2025-10-06
+image: \assets\images\articles\density-clustering-pt1\wikimedia\Nytaxis.png
 ---
 
 <script>
