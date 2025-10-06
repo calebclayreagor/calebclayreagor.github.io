@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% include nav.html %}
-
 # Professional Summary
 Ph.D. data and machine learning scientist with **_six years of experience developing and training deep neural networks for spatial, temporal, vision, and network-structured data._** Skilled in supervised and unsupervised methods including deep learning, classical ML, and stochastic modeling.
 
