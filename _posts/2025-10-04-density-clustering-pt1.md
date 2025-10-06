@@ -41,7 +41,7 @@ Density-based clustering is a nonparametric method that can detect continuous re
 
 <div align="center" markdown="1">
 
-![DBSCAN example](\images\posts\2025-10-04-density-clustering-pt1\DBSCAN-density-data.svg)
+![DBSCAN example](\images\posts\2025-10-04-density-clustering-pt1\DBSCAN-density-data.svg){: width="50%" }
 
 Wikimedia Commons, CC BY-SA 3.0
 
@@ -51,7 +51,7 @@ These methods are well suited for exploratory analysis of transportation and geo
 
 <div align="center" markdown="1">
 
-![DBSCAN train station](\images\posts\2025-10-04-density-clustering-pt1\epsilon_parameter_hdbscan_eps.webp)
+![DBSCAN train station](\images\posts\2025-10-04-density-clustering-pt1\epsilon_parameter_hdbscan_eps.webp){: width="50%" }
 
 HDBSCAN Read the Docs, BSD 3-Clause
 
@@ -101,7 +101,7 @@ Another important parameter for [my implementation](https://github.com/calebclay
 
 <div align="center" markdown="1">
 
-![Time scaling](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/2485ed79b1b9f15f304f2b1af9f2572a3efdfede/figures/scaling.svg)
+![Time scaling](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/2485ed79b1b9f15f304f2b1af9f2572a3efdfede/figures/scaling.svg){: width="100%" }
 
 </div>
 
@@ -174,7 +174,7 @@ This suggests that passengers aren't sharing rides to their jobs in the morning 
 
 <div align="center" markdown="1">
 
-![Manhattan efficiency map](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_manhattan_weekday_AM.svg)
+![Manhattan efficiency map](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_manhattan_weekday_AM.svg){: width="50%" }
 
 </div>
 
