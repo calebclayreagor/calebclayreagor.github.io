@@ -131,7 +131,7 @@ $E = \frac{c_v}{c} = \frac{\text{cost per capita microtransit}}{\text{cost per c
 
 </div>
 
-Although this equation is inverse to some other efficiency definitions, I chose to use it because $E$ is bounded on the interval $(0,1]$, with $E=1$ indicating that a taxi rider/vehicle configuration was as efficient as microtransit and $E<1$ indicating that the configuration was comparatively inefficient. If we assume that microtransit trips cost a scalar multiple $\alpha$ of the average taxi-trip cost per cluster, $E$ becomes a measure of the relative rider packing:
+Although this equation is inverse to some efficiency definitions, I chose it because $E$ is bounded on the interval $(0,1]$, with $E=1$ indicating a taxi rider/vehicle configuration was as efficient as microtransit and $E<1$ indicating the configuration was comparatively inefficient. If we assume that microtransit trips cost a scalar multiple $\alpha$ of the average taxi-trip cost per cluster, $E$ becomes a measure of rider packing:
 
 <div align="center" markdown="1" style="font-size:1.25rem; line-height:1.5;">
 
@@ -139,17 +139,17 @@ $E = \alpha \cdot \frac{M_v}{M} \rightarrow \frac{E}{\alpha} = \frac{M_v}{M}$,
 
 </div>
 
-where $E/\alpha$ is unitless packing efficiency, $M$ is the total number of taxi trips, and $M_v$ is the total number of van trips, which depends on the number of passengers in cluster $k$ and the total van capacity. Here, I assumed that microtransit vans have a typical seating capacity of six passengers, which is also the minimum cluster size that I used for `Iteration 0` of my density-based clustering algorithm. The following table outlines advantages/disadvantages of using $E/\alpha$ to measure ridesharing efficiency:
+where $E/\alpha$ is packing efficiency (unitless), $M$ is the total number of taxi trips, and $M_v$ is the total number of van trips, which depends on the number of passengers in cluster $k$ and the total van capacity. Here I assumed a typical microtransit van seating capacity of six passengers, which is also the minimum cluster size that I used for `Iteration 0` of my density-based clustering algorithm. The following table outlines key advantages/disadvantages of using $E/\alpha$ to measure ridesharing efficiency:
 
 <div align="center" markdown="1">
 
 | Advantages | Disadvantages |
 |:--:|:--:|
-| $E/\alpha$ is a scale-free metric that can meaningfully compare both long and short trips | $E/\alpha$ depends on urban density and may not accurately compare dense and sparse regions |
+| $E/\alpha$ is scale-free and can meaningfully compare both long and short trips | $E/\alpha$ depends on urban density and may not accurately compare dense and sparse regions |
 | $M_v$ is directly tunable to optimize van/bus capacity across different regions/times | $E/\alpha$ assesses aggregation/configuration and is agnostic of trip distance/duration |
 | No need to introduce systematic errors due to biased/imprecise direct cost estimates |  |
-| Does not require mid-trip pickups if calibrated to the minimum cluster size |  |
+| Does not require mid-trip pickups if well-calibrated to the minimum cluster size |  |
 
 </div>
 
-### Efficiency trends across times and locations
+### Efficiency trends across days, times, and locations
