@@ -170,7 +170,7 @@ Across both Manhattan and the outer boroughs, packing efficiency drops every day
 
 </div>
 
-Focusing on Manhattan, we can see that weekday demand for taxis increases ~6 hours before efficiency (between ~6 AM-Noon):
+Focusing on Manhattan, we can see that weekday demand for taxis increases ~6 hours before efficiency, between ~6 AM-Noon:
 
 <div align="center" markdown="1">
 
@@ -178,7 +178,9 @@ Focusing on Manhattan, we can see that weekday demand for taxis increases ~6 hou
 
 </div>
 
-This suggests that passengers aren't sharing rides to their jobs in the morning but are instead sharing rides with their co-workers after leaving the office in the afternoon, constituting a significant opportunity to optimize efficiency (and profits!) during the morning rush hour. The AM efficiency dropoff is distributed unevenly across Manhattan's neighborhoods, with Upper Manhattan and the Lower East Side showing comparatively better packing efficiency and the Upper East Side showing the worst efficiency:
+This suggests that passengers aren't sharing taxis when commuting to their jobs but are instead sharing rides with their co-workers after leaving the office in the afternoon. This insight presents a significant opportunity to optimize ridesharing efficiency (and profits!) during the morning rush hour.
+
+If we break down the morning efficiency dropoff by neighborhood, we can see that Upper Manhattan and the Lower East Side show comparatively better packing efficiency and the Upper East Side shows the worst efficiency:
 
 <div align="center" markdown="1">
 
