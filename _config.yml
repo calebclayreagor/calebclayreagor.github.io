@@ -14,3 +14,7 @@ description: >
     <a href="https://www.linkedin.com/in/caleb-c-reagor-phd-24a965169/" class="btn">LinkedIn</a>
     <a href="https://scholar.google.com/citations?user=OrpTjvIAAAAJ" class="btn">Papers</a>    
   </p>
+collections:
+  articles:
+    output: true
+    permalink: /blog/:name/

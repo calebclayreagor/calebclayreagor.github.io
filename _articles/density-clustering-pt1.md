@@ -1,7 +1,6 @@
 ---
-title: Caleb C. Reagor, Ph.D.
+title: Ridesharing Is Caring
 layout: default
-date: 2025-10-06 00:00:00 -0000
 ---
 
 <script>
