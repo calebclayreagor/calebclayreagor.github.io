@@ -1,5 +1,7 @@
 ---
-title: Ridesharing Is Caring — Geospatial Density-Based Clustering (Part 1)
+title: "Ridesharing Is Caring — Geospatial Density-Based Clustering (Part 1)"
+author: Caleb C. Reagor
+description: "Exploring ridesharing efficiency of NYC taxi trips using density-based clustering"
 layout: default
 date: 2025-10-06
 ---
