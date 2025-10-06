@@ -166,7 +166,7 @@ Focusing on Manhattan, we can see that weekday demand for taxis increases ~6 hou
 
 <div align="center" markdown="1">
 
-![Manhattan efficiency and demand](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_vs_demand_manhattan.svg)
+![Manhattan efficiency and demand](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_vs_demand_manhattan.svg){: width="100%" }
 
 </div>
 
@@ -182,7 +182,7 @@ Returning our focus to the outer boroughs, we can see that demand peaks while ef
 
 <div align="center" markdown="1">
 
-![Outer boroughs efficiency and demand](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_vs_demand_outer_boroughs.svg)
+![Outer boroughs efficiency and demand](https://raw.githubusercontent.com/calebclayreagor/nyc-taxi-efficiency/06c282c566790cca3a67b4b4bb66335da1b4b393/figures/efficiency_vs_demand_outer_boroughs.svg){: width="100%" }
 
 </div>
 
