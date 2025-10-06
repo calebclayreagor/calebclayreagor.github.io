@@ -117,4 +117,39 @@ Based on the sweep, I performed my final clustering with a spatiotemporal scale 
 
 ---
 
-## Defining and tracking ridesharing efficiency
+## Defining and exploring ridesharing efficiency
+
+Identifying coherent clusters of taxi trips is already interesting and raises important questions for transit agencies and companies. For example, if passengers are departing/arriving at similar locations/times, is it possible to transport customers more efficiently by increasing their overall ridesharing? To answer this question, I proposed and implemented a complementary metric to assess ridesharing efficiency across clustered taxi trips.
+
+### Demand-responsive transport and packing efficiency
+
+One common approach to increasing ridesharing is [demand-responsive transport](https://en.wikipedia.org/wiki/Demand-responsive_transport), where vans or small busses operate on non-fixed routes according to overall demand and passengers' pickup/dropoff locations. I used this model of microtransit as a benchmark for comparison with actual ridesharing in my taxi-trip clusters. I defined the efficiency $E$ of a taxi rider/vehicle configuration for a given cluster $k$ as follows:
+
+<div align="center" markdown="1" style="font-size:1.25rem; line-height:1.5;">
+
+$E = \frac{c_v}{c} = \frac{\text{cost per capita microtransit}}{\text{cost per capita actual}}$.
+
+</div>
+
+Though ridesharing efficiency is typically defined as the inverse quantity, I chose to use this definition for $E$ because it is bound on the interval $(0,1]$, with $E=1$ indicating that a taxi rider/vehicle configuration was as efficient as microtransit and $E<1$ indicating that the configuration was comparatively inefficient. If we assume that microtransit trips cost a scalar multiple $\alpha$ of the average taxi-trip cost per cluster, $E$ becomes a measure of the relative rider packing:
+
+<div align="center" markdown="1" style="font-size:1.25rem; line-height:1.5;">
+
+$E = \alpha \cdot \frac{M_v}{M} \rightarrow \frac{E}{\alpha} = \frac{M_v}{M}$,
+
+</div>
+
+where $E/\alpha$ is the unitless packing efficiency, $M$ is the total number of taxi trips, and $M_v$ is the total number of van trips, which depends on the number of passengers in cluster $k$ and the total van capacity. Here, I assumed that microtransit vans had a typical seating capacity of six passengers, which is also the minimum cluster size that I used for the first iteration of my density-based clustering algorithm. The following table outlines the main advantages/disadvantages of using $E/\alpha$ as a measure of ridesharing efficiency:
+
+<div align="center" markdown="1">
+
+| Advantages | Disadvantages |
+|:--:|:--:|
+| $E/\alpha$ is a scale-free metric that can meaningfully compare both long and short trips | $E/\alpha$ depends on urban density and may not accurately compare dense and sparse regions |
+| $M_v$ is directly tunable to optimize van/bus capacity across different regions/times | $E/\alpha$ assesses aggregation and configuration and is agnostic of trip distance/duration |
+| No need to introduce systematic errors due to biased/imprecise direct cost estimates |  |
+| Does not require mid-trip pickups if calibrated to minimum cluster size |  |
+
+</div>
+
+### Efficiency trends across datetimes and locations
