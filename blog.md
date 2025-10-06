@@ -1,4 +1,4 @@
 ---
-title: Caleb C. Reagor, Ph.D.
+title: Blog
 layout: default
 ---

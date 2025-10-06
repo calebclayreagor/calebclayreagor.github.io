@@ -1,5 +1,5 @@
 ---
-title: Caleb C. Reagor, Ph.D.
+title: Tech Stack
 theme: default
 ---
 
