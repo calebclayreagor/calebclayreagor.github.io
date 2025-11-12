@@ -5,7 +5,7 @@ layout: default
 
 <div align="center" markdown="1">
 
-![Caleb Reagor](assets/images/index/CalebReagor.jpg)
+![Caleb Reagor](assets/images/index/CalebReagorHeadshot.jpg)
 
 </div>
 
